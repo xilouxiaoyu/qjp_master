@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.itcast.gjp.dao.userInsertDao">
+
+    <insert id="insertUser" >
+insert into `qianjin`.`user` ( `nickname`, `mobile`, `id_no`, `real_name`, `id_verified`, `id_verified_time`, `head_image`, `utm_source`, `invited_id`, `create_time`, `last_login_time`, `cash_password`, `login_permission`, `invest_permission`, `comment_permission`, `update_time`, `total_credit`, `available_credit`, `email`, `mobile_verified`, `email_verified`, `password`, `u_type`, `client_type`, `version`, `attribute`, `id_type`, `blacklist`, `pwd_salt`, `is_know`) values ( #{nickName},#{mobile}, '172773', #{realName}, '1', '0', '', '0', '0', '2013-12-30 09:38:30', '0000-00-00 00:00:00', '79273927', '-1', '1', '-1', '2014-03-25 20:46:28', '0', '0', null, '2', '2', 'E10ADC3949BA59ABBE56E057F20F883E666', '5', '0', '1', null, '0', '0', '-1', '1');
+    </insert>
+
+</mapper>

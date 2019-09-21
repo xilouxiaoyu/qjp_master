@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ApiAutoTest">
+    <test verbose="2" name="all cases">
+    <classes>            <!-- 接口自动化测试入口-->
+        <class name="cn.itcast.gjp.test">
+            <!--<methods>
+                <include name="test1"/>
+            </methods>-->
+        </class>
+    </classes>
+    </test>
+    <listeners>
+        <listener class-name="cn.itcast.gjp.testNG.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

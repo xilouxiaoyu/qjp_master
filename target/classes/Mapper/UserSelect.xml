@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.itcast.gjp.dao.userDao">
+    <resultMap id="baseMap" type="cn.itcast.gjp.domain.user">
+        <id column="id" property="id"/>
+        <result column="nickName" property="nickName"/>
+        <result column="mobile" property="mobile" />
+        <result column="real_name" property="realName" />
+    </resultMap>
+
+    <select id="selectById" resultMap="baseMap">
+        SELECT
+          id,nickName,mobile,real_name
+        FROM
+          user
+        WHERE
+          id = #{id}
+    </select>
+    <select id="selectByNickName" resultMap="baseMap">
+        SELECT
+        id,nickName,mobile,real_name
+        FROM
+        user
+        WHERE
+        `nickname` like "%"#{nickName}"%"
+    </select>
+
+
+</mapper>
