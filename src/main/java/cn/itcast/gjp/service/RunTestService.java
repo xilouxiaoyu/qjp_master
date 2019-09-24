@@ -18,6 +18,7 @@ import java.util.List;
 public class RunTestService {
     public void run(){
         //method one
+
         /*TestNG testng = new TestNG();
         testng.setTestClasses(new Class[] {test.class });
         testng.run();*/
@@ -25,19 +26,20 @@ public class RunTestService {
 
 
         //method two
-//        XmlSuite suite = new XmlSuite();
-//        suite.setName("TmpSuite");
-//
-//        XmlTest test = new XmlTest(suite);
-//        test.setName("TmpTest");
-//        List<XmlClass> classes = new ArrayList<XmlClass>();
-//        classes.add(new XmlClass("cn.itcast.gjp.test"));
-//        test.setXmlClasses(classes) ;
-//        List<XmlSuite> suites = new ArrayList<XmlSuite>();
-//        suites.add(suite);
-//        TestNG tng = new TestNG();
-//        tng.setXmlSuites(suites);
-//        tng.run();
+
+        /*XmlSuite suite = new XmlSuite();
+        suite.setName("TmpSuite");
+
+        XmlTest test = new XmlTest(suite);
+        test.setName("TmpTest");
+        List<XmlClass> classes = new ArrayList<XmlClass>();
+        classes.add(new XmlClass("cn.itcast.gjp.test"));
+        test.setXmlClasses(classes) ;
+        List<XmlSuite> suites = new ArrayList<XmlSuite>();
+        suites.add(suite);
+        TestNG tng = new TestNG();
+        tng.setXmlSuites(suites);
+        tng.run();*/
 
         //method three
         TestNG testNG = new TestNG();
