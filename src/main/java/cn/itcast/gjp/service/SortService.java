@@ -17,7 +17,6 @@ public class SortService {
         }
 
     }
-git
     public static void main(String[] args) {
         int a[]={1,10,3};
         sort(a);
