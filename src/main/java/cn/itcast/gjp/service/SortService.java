@@ -26,11 +26,11 @@ public class SortService {
         fileInputStream.close();
     }
     public static void main(String[] args) throws IOException {
-        int a[]={1,10,3};
+        /*int a[]={1,10,3};
         sort(a);
         for(Object obj:a){
-        System.out.println(obj);
-        readFile(new File("/User/a/123.txt"));
+        System.out.println(obj);*/
+        readFile(new File("/Users/apple/IdeaProjects/a/123"));
         }
     }
-}
+
