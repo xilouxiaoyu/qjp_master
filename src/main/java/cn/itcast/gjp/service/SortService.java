@@ -23,6 +23,5 @@ public class SortService {
         for(Object obj:a){
         System.out.println(obj);
         }
-
     }
 }
