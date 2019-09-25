@@ -25,17 +25,19 @@ public class SortService {
         FileInputStream fileInputStream = new FileInputStream(file);
         InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-        int tempchar;
+        String tempchar;
         ArrayList<String> strings = new ArrayList<String>();
-        while ((tempchar = bufferedReader.read()) != -1){
-        //System.out.println(bufferedReader.readLine());
-        strings.add(bufferedReader.readLine());
+        while ((tempchar = bufferedReader.readLine()) != null){
+            //String s=bufferedReader.readLine();
+            System.out.println(tempchar);
+            strings.add(tempchar);
+
         }
         System.out.println("==========");
         fileInputStream.close();
         for(int i=0;i<strings.size();i++){
             for(int j=i+1;i<strings.size();i++){
-                if(strings.get(i)==strings.get(j)){
+                if((strings.get(i))==((strings.get(j)))){
                     strings.remove(j);
                 }
             }
