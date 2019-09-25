@@ -22,9 +22,10 @@ public class SortService {
     }
 
     public static void readFile(File file1,File file2) throws IOException{
-        FileInputStream fileInputStream = new FileInputStream(file1);
-        InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
-        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+        //FileInputStream fileInputStream = new FileInputStream(file1);
+        //InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
+        FileReader fileReader = new FileReader(file1);
+        BufferedReader bufferedReader = new BufferedReader(fileReader);
         String tempchar;
         ArrayList<String> strings = new ArrayList<String>();
         while ((tempchar = bufferedReader.readLine()) != null){
@@ -34,7 +35,7 @@ public class SortService {
 
         }
         System.out.println("==========");
-        fileInputStream.close();
+        bufferedReader.close();
         for(int i=0;i<strings.size();i++){
             for(int j=i+1;j<strings.size();j++){
                 if((strings.get(i)).equals((strings.get(j)))){
@@ -46,15 +47,14 @@ public class SortService {
         for(String s:strings){
             System.out.println(s);
         }
-        FileOutputStream fileWrite = new FileOutputStream("file2");
-        OutputStreamWriter outputStreamWriter = new OutputStreamWriter(fileWrite);
-        BufferedWriter bufferedWriter = new BufferedWriter(outputStreamWriter);
+
+        FileWriter fileWriter = new FileWriter(file2);
+        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
         for(String s:strings){
-            bufferedWriter.write(s);
+        bufferedWriter.write(s+"    ");
             bufferedWriter.flush();
         }
-
-        fileWrite.close();
+        bufferedWriter.close();
 
     }
     public static void main(String[] args) throws IOException {
