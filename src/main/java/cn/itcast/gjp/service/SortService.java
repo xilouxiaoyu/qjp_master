@@ -57,13 +57,36 @@ public class SortService {
         bufferedWriter.close();
 
     }
+
+    public static void sortString(String[] strings){
+        for(int i=0;i<strings.length;i++){
+            for(int j=i+1;j<strings.length;j++){
+                if ((strings[i]).compareTo(strings[j])>0){
+                    String m=strings[i];
+                    strings[i]=strings[j];
+                    strings[j]=m;
+                }
+            }
+        }
+    }
+
     public static void main(String[] args) throws IOException {
+        //数字排序
         /*int a[]={1,10,3};
         sort(a);
         for(Object obj:a){
         System.out.println(obj);*/
-        readFile(new File("/Users/apple/IdeaProjects/a/123"),new File("/Users/apple/IdeaProjects/a/234"));
+
+        //将一个文件中的字符串去重写入另一个文件中
+        //readFile(new File("/Users/apple/IdeaProjects/a/123"),new File("/Users/apple/IdeaProjects/a/234"));
+
+        //数组中的字符串排序
+        String[] strings={"ABC","abn","mkaj","hjand","ghaja"};
+        sortString(strings);
+        for(Object obj:strings){
+            System.out.println(obj);
         }
     }
+}
 
 
