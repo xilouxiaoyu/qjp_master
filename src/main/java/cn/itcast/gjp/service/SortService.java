@@ -21,8 +21,8 @@ public class SortService {
 
     }
 
-    public static void readFile(File file) throws IOException{
-        FileInputStream fileInputStream = new FileInputStream(file);
+    public static void readFile(File file1,File file2) throws IOException{
+        FileInputStream fileInputStream = new FileInputStream(file1);
         InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
         String tempchar;
@@ -36,15 +36,25 @@ public class SortService {
         System.out.println("==========");
         fileInputStream.close();
         for(int i=0;i<strings.size();i++){
-            for(int j=i+1;i<strings.size();i++){
-                if((strings.get(i))==((strings.get(j)))){
+            for(int j=i+1;j<strings.size();j++){
+                if((strings.get(i)).equals((strings.get(j)))){
                     strings.remove(j);
+                    j--;
                 }
             }
         }
         for(String s:strings){
             System.out.println(s);
         }
+        FileOutputStream fileWrite = new FileOutputStream("file2");
+        OutputStreamWriter outputStreamWriter = new OutputStreamWriter(fileWrite);
+        BufferedWriter bufferedWriter = new BufferedWriter(outputStreamWriter);
+        for(String s:strings){
+            bufferedWriter.write(s);
+            bufferedWriter.flush();
+        }
+
+        fileWrite.close();
 
     }
     public static void main(String[] args) throws IOException {
@@ -52,7 +62,8 @@ public class SortService {
         sort(a);
         for(Object obj:a){
         System.out.println(obj);*/
-        readFile(new File("/Users/apple/IdeaProjects/a/123"));
+        readFile(new File("/Users/apple/IdeaProjects/a/123"),new File("/Users/apple/IdeaProjects/a/234"));
         }
     }
+
 
