@@ -1,7 +1,10 @@
 package cn.itcast.gjp.service;
 
+import org.springframework.scheduling.annotation.AsyncResult;
+
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 import java.util.concurrent.FutureTask;
 
 /**
@@ -23,7 +26,6 @@ public class FutureCook {
                 return new Chuju();
             }
         };*/
-
 
         FutureTask<Chuju> Task = new FutureTask<Chuju>(chujuOnline);
         new Thread(Task).start();

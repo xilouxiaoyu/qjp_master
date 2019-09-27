@@ -1,7 +1,10 @@
 package cn.itcast.gjp.service;
 
+import org.springframework.scheduling.annotation.AsyncResult;
+
 import java.io.*;
 import java.util.ArrayList;
+import java.util.concurrent.Future;
 
 /**
  * @author apple
@@ -70,6 +73,17 @@ public class SortService {
         }
     }
 
+    public  Future<FutureCook.Chuju> futureStudy(){
+        Thread thread = new Thread();
+        ChucjuCallable chucjuCallable = new ChucjuCallable();
+        thread.start();
+        ThreadLocal<Object> ThreadLocalStudy = new ThreadLocal<>();
+        ThreadLocalStudy.set("");
+        ThreadLocalStudy.get();
+        System.out.println(ThreadLocalStudy.get());
+        return new AsyncResult("执行过程正常");
+    }
+
     public static void main(String[] args) throws IOException {
         //数字排序
         /*int a[]={1,10,3};
@@ -81,11 +95,14 @@ public class SortService {
         //readFile(new File("/Users/apple/IdeaProjects/a/123"),new File("/Users/apple/IdeaProjects/a/234"));
 
         //数组中的字符串排序
-        String[] strings={"ABC","abn","mkaj","hjand","ghaja"};
+       /* String[] strings={"ABC","abn","mkaj","hjand","ghaja"};
         sortString(strings);
         for(Object obj:strings){
             System.out.println(obj);
-        }
+        }*/
+        SortService sortService = new SortService();
+        sortService.futureStudy();
+
     }
 }
 
