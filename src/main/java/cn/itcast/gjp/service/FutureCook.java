@@ -12,7 +12,9 @@ public class FutureCook {
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
         long startTime = System.currentTimeMillis();
-        Callable<Chuju> chujuOnline = new Callable<Chuju>() {
+        Callable<Chuju> chujuOnline = new ChucjuCallable();
+
+        /*Callable<Chuju> chujuOnline = new ChucjuCallable(){;
             @Override
             public Chuju call() throws Exception {
                 System.out.println("第一步下单");
@@ -20,7 +22,9 @@ public class FutureCook {
                 Thread.sleep(10000);
                 return new Chuju();
             }
-        };
+        };*/
+
+
         FutureTask<Chuju> Task = new FutureTask<Chuju>(chujuOnline);
         new Thread(Task).start();
         Thread.sleep(2000);
