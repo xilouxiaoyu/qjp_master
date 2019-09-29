@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class Sort {
 
-    @Autowired
+   /* @Autowired
     public SortService sortService;
 
     @RequestMapping("sort")
     public void sort (int[] args){
         sort(args);
-    }
+    }*/
 }
