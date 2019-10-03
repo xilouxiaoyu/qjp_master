@@ -44,7 +44,7 @@ public class RunTestService {
         //method three
         TestNG testNG = new TestNG();
         ArrayList<String> list = new ArrayList<>();
-        String path = this.getClass().getClassLoader().getResource("").getPath();/**/
+        String path = this.getClass().getClassLoader().getResource("").getPath();
         list.add(path + "TestNG.xml");
         testNG.setTestSuites(list);
         testNG.run();
