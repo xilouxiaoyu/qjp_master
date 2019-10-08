@@ -5,6 +5,7 @@ import cn.itcast.gjp.domain.testCase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -30,8 +31,8 @@ public class testCaseInOrderService {
         return result;
     }
     public String allInOrder(){
-        List<String> result=null;
-        boolean depend=false;
+        List<String> result=new ArrayList<>();
+        boolean depend;
         List<testCase> testCases =testcaseDao.selectAll();
         for(testCase tcase:testCases){
             if (tcase.isDepend()){
