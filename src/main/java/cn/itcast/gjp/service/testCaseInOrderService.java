@@ -16,17 +16,32 @@ public class testCaseInOrderService {
 
     @Autowired
     public testCaseDao testcaseDao;
-    public String inOrder(int id){
+    public String oneInOrder(int id){
         String result=null;
         boolean depend=false;
         testCase testCase=testcaseDao.selectById(id);
-        if (testCase.isDepend()){
-            List<testCase> testCases=testcaseDao.selectBydepend();
-            result=testCases.toString();
-        }
-        else {
-            result=testCase.toString();
-        }
+            if (testCase.isDepend()){
+                List<testCase> testCases=testcaseDao.selectBydepend();
+                result=testCases.toString();
+            }
+            else {
+                result=testCase.toString();
+            }
         return result;
+    }
+    public String allInOrder(){
+        List<String> result=null;
+        boolean depend=false;
+        List<testCase> testCases =testcaseDao.selectAll();
+        for(testCase tcase:testCases){
+            if (tcase.isDepend()){
+               List<testCase> tCases=testcaseDao.selectBydepend();
+               result.add(tCases.toString());
+              }
+              else {
+                 result.add(tcase.toString());
+             }
+        }
+        return result.toString();
     }
 }

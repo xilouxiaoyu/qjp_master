@@ -19,8 +19,14 @@ public class testCaseInOrder {
     public testCaseInOrderService testCaseInOrderService;
     @RequestMapping("testRun")
     @ResponseBody
+    public String testOrder(int id){
+        return testCaseInOrderService.oneInOrder(id);
+    }
+
+    @RequestMapping("testRunAll")
+    @ResponseBody
     public String testOrder(){
-        return testCaseInOrderService.inOrder(3);
+        return testCaseInOrderService.allInOrder();
     }
 
 }

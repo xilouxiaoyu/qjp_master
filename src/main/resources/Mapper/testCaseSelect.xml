@@ -15,7 +15,7 @@
         FROM
           testcase
         WHERE
-          depend = 1 order by weights
+          depend = 1 GROUP by depend ORDER by weights
     </select>
     <select id="selectById" resultType="cn.itcast.gjp.domain.testCase">
         SELECT
@@ -24,6 +24,13 @@
         testcase
         WHERE
         id = #{id}
+    </select>
+    <select id="selectAll" resultType="cn.itcast.gjp.domain.testCase">
+        SELECT
+        id as id,depend as depend,weights as weights,casename as caseName
+        FROM
+        testcase
+
     </select>
 
 </mapper>
