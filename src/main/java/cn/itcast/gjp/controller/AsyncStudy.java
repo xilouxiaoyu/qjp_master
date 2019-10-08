@@ -23,14 +23,22 @@ public class AsyncStudy {
     @ResponseBody
     public void AsyncTest() throws Exception{
         Future<String> future= asyncStudyService.asyncMethodWithReturnType();
-        while (true) {
+        /*while (true) {
             if (future.isDone()) {  //判断是否执行完毕
-                 System.out.println("Result from asynchronous process - " + future.get());
-                        break;
-                    }
-                    System.out.println("Continue doing something else. ");
-                    Thread.sleep(2000);
-                }
+                System.out.println("Result from asynchronous process - " + future.get());
+                break;
+            }
+            System.out.println("Continue doing something else. ");
+            Thread.sleep(2000);
+        }*/
+        while (!future.isDone()) {
+            System.out.println("Continue doing something else. ");
+            Thread.sleep(2000);
+        }
+        System.out.println("Result from asynchronous process - " + future.get());
+        for(;;) {
+
+        }
     }
 
 }

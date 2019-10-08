@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.itcast.gjp.dao.testCaseDao">
+
+    <!--<resultMap id="baseMap" type="cn.itcast.gjp.domain.user">
+        <id column="id" property="id"/>1
+        <result column="depend" property="depend" />
+        <result column="weights" property="weights" />
+        <result column="caseName" property="caseName" />
+    </resultMap>-->
+
+    <select id="selectBydepend" resultType="cn.itcast.gjp.domain.testCase">
+     SELECT
+          id as id,depend as depend,weights as weights,casename as caseName
+        FROM
+          testcase
+        WHERE
+          depend = 1 order by weights
+    </select>
+    <select id="selectById" resultType="cn.itcast.gjp.domain.testCase">
+        SELECT
+        id as id,depend as depend,weights as weights,casename as caseName
+        FROM
+        testcase
+        WHERE
+        id = #{id}
+    </select>
+
+</mapper>
