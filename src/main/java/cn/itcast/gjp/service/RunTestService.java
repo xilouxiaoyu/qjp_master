@@ -1,14 +1,10 @@
 package cn.itcast.gjp.service;
 
-import cn.itcast.gjp.test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.testng.TestNG;
-import org.testng.xml.XmlClass;
-import org.testng.xml.XmlSuite;
-import org.testng.xml.XmlTest;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author apple
@@ -16,6 +12,10 @@ import java.util.List;
  */
 @Service
 public class RunTestService {
+    @Autowired
+    public testCaseInOrderService testCaseInOrderService;
+    public static Object[][] data;
+    @SuppressWarnings("UnnecessaryParentheses")
     public void run(){
         //method one
 
@@ -42,6 +42,13 @@ public class RunTestService {
         tng.run();*/
 
         //method three
+
+            /*int m=100;
+            data=new Object[m][1];
+            for(int i=0;i<m;i++){
+                data[i][1]= testCaseInOrderService.allInOrder().get(i);
+            }*/
+
         TestNG testNG = new TestNG();
         ArrayList<String> list = new ArrayList<>();
         String path = this.getClass().getClassLoader().getResource("").getPath();

@@ -15,6 +15,8 @@ import java.util.List;
 @Service
 public class testCaseInOrderService {
 
+    public static Object[][] data;
+
     @Autowired
     public testCaseDao testcaseDao;
     public String oneInOrder(int id){
@@ -30,20 +32,25 @@ public class testCaseInOrderService {
             }*/
         return result;
     }
-    public List<testCase> allInOrder(){
-        List<testCase> result=new ArrayList<>();
+    public ArrayList<testCase> allInOrder(){
+
+        ArrayList<testCase> result=new ArrayList<>();
         boolean depend;
         List<String> ScenesNames =testcaseDao.selectBydepend();
-        for(String scenname:ScenesNames){
-                List<testCase> tCases=testcaseDao.selectByScenesName(scenname);
-                for(testCase tCase:tCases) {
-                    result.add(tCase);
-                }
+        for(String scenname:ScenesNames) {
+            List<testCase> tCases = testcaseDao.selectByScenesName(scenname);
+            for (testCase tCase : tCases) {
+                result.add(tCase);
             }
-
-            /*List<testCase> tCases=testcaseDao.selectByScenesName(tcase.getScenesName());
-            result.add(tCases.toString());*/
-
+        }
+        int m=4;
+        data = new Object[m][1];
+        for(int i=0;i<m;i++){
+            data[i][0] = result.get(i);
+        }
         return result;
+
     }
+
 }
+

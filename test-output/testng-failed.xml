@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ApiAutoTest]">
+  <listeners>
+    <listener class-name="cn.itcast.gjp.testNG.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="all cases(failed)">
+    <classes>
+      <class name="cn.itcast.gjp.test">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- cn.itcast.gjp.test -->
+    </classes>
+  </test> <!-- all cases(failed) -->
+</suite> <!-- Failed suite [ApiAutoTest] -->
