@@ -17,7 +17,9 @@ public interface testCaseDao {
     /**
      * 依据depend查询
      */
-    List<testCase> selectBydepend();//@Param("depend") boolean depend);
+    //List<testCase> selectBydepend();//@Param("depend") boolean depend);
+
+    List<String> selectBydepend();
     /**
      * 依据id查询
      */

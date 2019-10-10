@@ -1,11 +1,14 @@
 package cn.itcast.gjp.controller;
 
+import cn.itcast.gjp.domain.testCase;
 import cn.itcast.gjp.service.testCaseInOrderService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
 
 /**
  * @author apple
@@ -25,7 +28,7 @@ public class testCaseInOrder {
 
     @RequestMapping("testRunAll")
     @ResponseBody
-    public String testOrder(){
+    public List<testCase> testOrder(){
         return testCaseInOrderService.allInOrder();
     }
 

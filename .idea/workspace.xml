@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f90317a-8c19-4596-8c55-738f839fb603" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/controller/testCaseInOrder.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/controller/testCaseInOrder.java" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/controller/testCaseInOrder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/dao/testCaseDao.java" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/dao/testCaseDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/domain/testCase.java" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/domain/testCase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/testCaseInOrderService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/testCaseInOrderService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Mapper/testCaseSelect.xml" afterPath="$PROJECT_DIR$/src/main/resources/Mapper/testCaseSelect.xml" />
     </list>
@@ -33,8 +34,8 @@
       <file leaf-file-name="testCaseDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/dao/testCaseDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="385">
+              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,17 +43,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testCaseSelect.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testCaseSelect.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/testCaseSelect.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="282">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding>
-                <marker date="1570693948936" expanded="true" signature="575:760" ph="SELECT id,de... testcase" />
-                <marker date="1570693948936" expanded="true" signature="575:770" ph="SELECT id as... testcase" />
-                <marker date="1570693948936" expanded="true" signature="865:1034" ph="SELECT id as... testcase" />
-                <marker date="1570693948936" expanded="true" signature="1128:1264" ph="SELECT id as... testcase" />
-                <marker date="1570693948936" expanded="true" signature="1368:1561" ph="SELECT id as... testcase" />
+                <marker date="1570697353892" expanded="true" signature="562:681" ph="SELECT id,de... testcase" />
+                <marker date="1570697353892" expanded="true" signature="562:691" ph="SELECT scene... testcase" />
+                <marker date="1570697353892" expanded="true" signature="786:955" ph="SELECT id as... testcase" />
+                <marker date="1570697353892" expanded="true" signature="1049:1185" ph="SELECT id as... testcase" />
+                <marker date="1570697353892" expanded="true" signature="1289:1482" ph="SELECT id as... testcase" />
               </folding>
             </state>
           </provider>
@@ -61,7 +62,7 @@
       <file leaf-file-name="testCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/domain/testCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="380">
               <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testCaseInOrderService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testCaseInOrderService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/testCaseInOrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="35" column="63" lean-forward="true" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
+            <state relative-caret-position="106">
+              <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,14 +86,14 @@
       <file leaf-file-name="testCaseInOrder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/controller/testCaseInOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+            <state relative-caret-position="518">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#858#859#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,11 +199,11 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/testCaseInOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/controller/Insert.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/controller/testCaseInOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/domain/testCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/dao/testCaseDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/testCaseInOrderService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Mapper/testCaseSelect.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/controller/testCaseInOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/testCaseInOrderService.java" />
       </list>
     </option>
   </component>
@@ -686,7 +687,7 @@
       <workItem from="1569295191513" duration="28538000" />
       <workItem from="1569404974559" duration="13187000" />
       <workItem from="1569724961876" duration="10784000" />
-      <workItem from="1570069914539" duration="19807000" />
+      <workItem from="1570069914539" duration="23318000" />
     </task>
     <task id="LOCAL-00001" summary="xiugai">
       <created>1567477606074</created>
@@ -752,7 +753,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155695000" />
+    <option name="totallyTimeSpent" value="159206000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -765,6 +766,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1440" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -775,12 +777,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3622975" sideWeight="0.5143061" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14449213" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.106038295" sideWeight="0.48569384" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4226804" sideWeight="0.48569384" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.460972" sideWeight="0.49713877" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21745351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21745351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24742268" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -873,7 +875,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="46" />
+      <option name="time" value="48" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1228,14 +1230,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/binding/MapperProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="47" column="78" lean-forward="false" selection-start-line="47" selection-start-column="78" selection-end-line="47" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/context/request/AbstractRequestAttributes.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -1268,33 +1262,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/controller/testCaseInOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/testCaseSelect.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        <state relative-caret-position="282">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/dao/testCaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1570697353892" expanded="true" signature="562:681" ph="SELECT id,de... testcase" />
+            <marker date="1570697353892" expanded="true" signature="562:691" ph="SELECT scene... testcase" />
+            <marker date="1570697353892" expanded="true" signature="786:955" ph="SELECT id as... testcase" />
+            <marker date="1570697353892" expanded="true" signature="1049:1185" ph="SELECT id as... testcase" />
+            <marker date="1570697353892" expanded="true" signature="1289:1482" ph="SELECT id as... testcase" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/domain/testCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="380">
           <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1302,26 +1286,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/testCaseInOrderService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/dao/testCaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="35" column="63" lean-forward="true" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
+        <state relative-caret-position="385">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/testCaseSelect.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/controller/testCaseInOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="518">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <marker date="1570693948936" expanded="true" signature="575:760" ph="SELECT id,de... testcase" />
-            <marker date="1570693948936" expanded="true" signature="575:770" ph="SELECT id as... testcase" />
-            <marker date="1570693948936" expanded="true" signature="865:1034" ph="SELECT id as... testcase" />
-            <marker date="1570693948936" expanded="true" signature="1128:1264" ph="SELECT id as... testcase" />
-            <marker date="1570693948936" expanded="true" signature="1368:1561" ph="SELECT id as... testcase" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/testCaseInOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

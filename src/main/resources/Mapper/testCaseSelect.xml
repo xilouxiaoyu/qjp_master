@@ -9,9 +9,9 @@
         <result column="caseName" property="caseName" />
     </resultMap>-->
 
-    <select id="selectBydepend" resultType="cn.itcast.gjp.domain.testCase">
+    <select id="selectBydepend" resultType="java.lang.String">
      SELECT
-          id as id,depend as depend,weights as weights,casename as caseName,scenes_name as scenesName
+          scenes_name as scenesName
         FROM
           testcase
         WHERE

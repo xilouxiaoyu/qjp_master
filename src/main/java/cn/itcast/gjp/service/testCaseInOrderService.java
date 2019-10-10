@@ -21,32 +21,29 @@ public class testCaseInOrderService {
         String result=null;
         boolean depend=false;
         testCase testCase=testcaseDao.selectById(id);
-            if (testCase.isDepend()){
+            /*if (testCase.isDepend()){
                 List<testCase> testCases=testcaseDao.selectBydepend();
                 result=testCases.toString();
             }
             else {
                 result=testCase.toString();
-            }
+            }*/
         return result;
     }
-    public String allInOrder(){
-        List<String> result=new ArrayList<>();
+    public List<testCase> allInOrder(){
+        List<testCase> result=new ArrayList<>();
         boolean depend;
-        List<testCase> testCases =testcaseDao.selectBydepend();
-        for(testCase tcase:testCases){
-            if (tcase.isDepend()){
-                List<testCase> tCases=testcaseDao.selectByScenesName(tcase.getScenesName());
-                result.add(tCases.toString());
-            }
-            else {
-                result.add(tcase.toString());
+        List<String> ScenesNames =testcaseDao.selectBydepend();
+        for(String scenname:ScenesNames){
+                List<testCase> tCases=testcaseDao.selectByScenesName(scenname);
+                for(testCase tCase:tCases) {
+                    result.add(tCase);
+                }
             }
 
             /*List<testCase> tCases=testcaseDao.selectByScenesName(tcase.getScenesName());
             result.add(tCases.toString());*/
 
-        }
-        return result.toString();
+        return result;
     }
 }
