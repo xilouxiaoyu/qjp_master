@@ -33,15 +33,19 @@ public class testCaseInOrderService {
     public String allInOrder(){
         List<String> result=new ArrayList<>();
         boolean depend;
-        List<testCase> testCases =testcaseDao.selectAll();
+        List<testCase> testCases =testcaseDao.selectBydepend();
         for(testCase tcase:testCases){
             if (tcase.isDepend()){
-               List<testCase> tCases=testcaseDao.selectBydepend();
-               result.add(tCases.toString());
-              }
-              else {
-                 result.add(tcase.toString());
-             }
+                List<testCase> tCases=testcaseDao.selectByScenesName(tcase.getScenesName());
+                result.add(tCases.toString());
+            }
+            else {
+                result.add(tcase.toString());
+            }
+
+            /*List<testCase> tCases=testcaseDao.selectByScenesName(tcase.getScenesName());
+            result.add(tCases.toString());*/
+
         }
         return result.toString();
     }

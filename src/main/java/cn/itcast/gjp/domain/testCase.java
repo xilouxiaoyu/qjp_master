@@ -18,4 +18,5 @@ public class testCase {
     private boolean depend;
     private int weights;
     private String caseName;
+    private String ScenesName;
 }

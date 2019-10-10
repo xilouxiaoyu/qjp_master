@@ -11,15 +11,15 @@
 
     <select id="selectBydepend" resultType="cn.itcast.gjp.domain.testCase">
      SELECT
-          id as id,depend as depend,weights as weights,casename as caseName
+          id as id,depend as depend,weights as weights,casename as caseName,scenes_name as scenesName
         FROM
           testcase
         WHERE
-          depend = 1 GROUP by depend ORDER by weights
+          depend = 1 GROUP by scenesName
     </select>
     <select id="selectById" resultType="cn.itcast.gjp.domain.testCase">
         SELECT
-        id as id,depend as depend,weights as weights,casename as caseName
+        id as id,depend as depend,weights as weights,casename as caseName,scenes_name as scenesName
         FROM
         testcase
         WHERE
@@ -27,10 +27,17 @@
     </select>
     <select id="selectAll" resultType="cn.itcast.gjp.domain.testCase">
         SELECT
-        id as id,depend as depend,weights as weights,casename as caseName
+        id as id,depend as depend,weights as weights,casename as caseName,scenes_name as scenesName
         FROM
         testcase
 
+    </select>
+    <select id="selectByScenesName" resultType="cn.itcast.gjp.domain.testCase">
+        SELECT
+        id as id,depend as depend,weights as weights,casename as caseName,scenes_name as ScenesName
+        FROM
+        testcase
+        WHERE scenes_name=#{ScenesName} ORDER by weights
     </select>
 
 </mapper>

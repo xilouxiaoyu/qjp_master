@@ -25,5 +25,6 @@ public interface testCaseDao {
 
     List<testCase> selectAll();
 
+    List<testCase> selectByScenesName(@Param("ScenesName") String ScenesName);
 
 }
