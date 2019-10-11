@@ -25,7 +25,7 @@ public class test {
 
     @DataProvider(name ="test")
     public Object[][] getdata(){
-        Object [][] data1= testCaseInOrderService.data;
+        Object[][] data1= testCaseInOrderService.data;
         return data1;
     }
 }

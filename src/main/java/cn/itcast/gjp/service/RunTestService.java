@@ -43,11 +43,6 @@ public class RunTestService {
 
         //method three
 
-            /*int m=100;
-            data=new Object[m][1];
-            for(int i=0;i<m;i++){
-                data[i][1]= testCaseInOrderService.allInOrder().get(i);
-            }*/
         testCaseInOrderService.allInOrder();
         testCaseInOrderService.dataContain();
         TestNG testNG = new TestNG();

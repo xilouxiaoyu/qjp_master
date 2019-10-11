@@ -12,5 +12,6 @@
     </test>
     <listeners>
         <listener class-name="cn.itcast.gjp.testNG.ExtentTestNGIReporterListener"/>
+        <listener class-name="cn.itcast.gjp.testNG.ExtentTestNGITestListener"/>
     </listeners>
 </suite>

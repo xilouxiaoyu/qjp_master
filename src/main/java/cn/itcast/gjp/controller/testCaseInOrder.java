@@ -34,6 +34,4 @@ public class testCaseInOrder {
         return testCaseInOrderService.allInOrder();
     }
 
-
-
 }

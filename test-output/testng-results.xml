@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="ApiAutoTest" duration-ms="18" started-at="2019-10-11T03:42:46Z" finished-at="2019-10-11T03:42:46Z">
+  <suite name="ApiAutoTest" duration-ms="22" started-at="2019-10-11T09:49:47Z" finished-at="2019-10-11T09:49:47Z">
     <groups>
     </groups>
-    <test name="all cases" duration-ms="18" started-at="2019-10-11T03:42:46Z" finished-at="2019-10-11T03:42:46Z">
+    <test name="all cases" duration-ms="22" started-at="2019-10-11T09:49:47Z" finished-at="2019-10-11T09:49:47Z">
       <class name="cn.itcast.gjp.test">
-        <test-method status="PASS" signature="test1(cn.itcast.gjp.domain.testCase)[pri:0, instance:cn.itcast.gjp.test@c03b42d]" name="test1" duration-ms="3" started-at="2019-10-11T11:42:46Z" data-provider="test" finished-at="2019-10-11T11:42:46Z">
+        <test-method status="PASS" signature="test1(cn.itcast.gjp.domain.testCase)[pri:0, instance:cn.itcast.gjp.test@7ef82759]" name="test1" duration-ms="4" started-at="2019-10-11T17:49:47Z" data-provider="test" finished-at="2019-10-11T17:49:47Z">
           <params>
             <param index="0">
               <value>
@@ -18,29 +18,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test1(cn.itcast.gjp.domain.testCase)[pri:0, instance:cn.itcast.gjp.test@c03b42d]" name="test1" duration-ms="1" started-at="2019-10-11T11:42:46Z" data-provider="test" finished-at="2019-10-11T11:42:46Z">
+        <test-method status="PASS" signature="test1(cn.itcast.gjp.domain.testCase)[pri:0, instance:cn.itcast.gjp.test@7ef82759]" name="test1" duration-ms="0" started-at="2019-10-11T17:49:47Z" data-provider="test" finished-at="2019-10-11T17:49:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testCase(id=4, depend=true, weights=0, caseName=排序三, ScenesName=场景二)]]>
+                <![CDATA[testCase(id=4, depend=true, weights=10, caseName=排序三, ScenesName=场景一)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test1(cn.itcast.gjp.domain.testCase)[pri:0, instance:cn.itcast.gjp.test@c03b42d]" name="test1" duration-ms="0" started-at="2019-10-11T11:42:46Z" data-provider="test" finished-at="2019-10-11T11:42:46Z">
+        <test-method status="PASS" signature="test1(cn.itcast.gjp.domain.testCase)[pri:0, instance:cn.itcast.gjp.test@7ef82759]" name="test1" duration-ms="0" started-at="2019-10-11T17:49:47Z" data-provider="test" finished-at="2019-10-11T17:49:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testCase(id=2, depend=true, weights=10, caseName=排序二, ScenesName=场景一)]]>
+                <![CDATA[testCase(id=2, depend=true, weights=0, caseName=排序二, ScenesName=场景二)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test1(cn.itcast.gjp.domain.testCase)[pri:0, instance:cn.itcast.gjp.test@c03b42d]" name="test1" duration-ms="0" started-at="2019-10-11T11:42:46Z" data-provider="test" finished-at="2019-10-11T11:42:46Z">
+        <test-method status="PASS" signature="test1(cn.itcast.gjp.domain.testCase)[pri:0, instance:cn.itcast.gjp.test@7ef82759]" name="test1" duration-ms="0" started-at="2019-10-11T17:49:47Z" data-provider="test" finished-at="2019-10-11T17:49:47Z">
           <params>
             <param index="0">
               <value>
