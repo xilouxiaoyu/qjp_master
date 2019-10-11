@@ -2,8 +2,7 @@ package cn.itcast.gjp;
 
 
 import cn.itcast.gjp.domain.testCase;
-import cn.itcast.gjp.service.RunTestService;
-import org.springframework.beans.factory.annotation.Autowired;
+import cn.itcast.gjp.service.testCaseInOrderService;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -16,20 +15,18 @@ public class test {
 
 
     @Test(dataProvider = "test")
-
     public void test1(testCase testCase){
-        runTestCase(testCase);
-
+        this.runTestCase(testCase);
     }
 
     private void runTestCase(testCase testCase) {
-        System.out.println(testCase);
+        System.out.println(testCase.toString());
     }
 
     @DataProvider(name ="test")
     public Object[][] getdata(){
-        Object[][] data= RunTestService.data;
-        return data;
+        Object [][] data1= testCaseInOrderService.data;
+        return data1;
     }
 }
 

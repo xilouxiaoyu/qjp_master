@@ -43,14 +43,19 @@ public class testCaseInOrderService {
                 result.add(tCase);
             }
         }
-        int m=4;
-        data = new Object[m][1];
-        for(int i=0;i<m;i++){
-            data[i][0] = result.get(i);
-        }
         return result;
 
     }
+        public  Object[][] dataContain(){
+            ArrayList<testCase> result=new ArrayList<>();
+            result=this.allInOrder();
+            int m=4;
+            data = new Object[m][1];
+            for(int i=0;i<m;i++){
+                data[i][0] = result.get(i);
+            }
+            return data;
+        }
 
 }
 

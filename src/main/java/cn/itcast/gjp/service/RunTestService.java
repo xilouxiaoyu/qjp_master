@@ -48,7 +48,8 @@ public class RunTestService {
             for(int i=0;i<m;i++){
                 data[i][1]= testCaseInOrderService.allInOrder().get(i);
             }*/
-
+        testCaseInOrderService.allInOrder();
+        testCaseInOrderService.dataContain();
         TestNG testNG = new TestNG();
         ArrayList<String> list = new ArrayList<>();
         String path = this.getClass().getClassLoader().getResource("").getPath();
