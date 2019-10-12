@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f90317a-8c19-4596-8c55-738f839fb603" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise1.java" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,8 +41,8 @@
       <file leaf-file-name="Exercise1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="270">
+              <caret line="123" column="39" lean-forward="false" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1173#1181#0" expanded="true" />
@@ -324,6 +323,41 @@
             <path>
               <item name="qjp_master" type="b2602c69:ProjectViewProjectNode" />
               <item name="qjp_master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qjp_master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qjp_master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qjp_master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qjp_master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qjp_master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qjp_master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qjp_master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qjp_master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gjp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qjp_master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qjp_master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gjp" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -608,7 +642,7 @@
       <workItem from="1569295191513" duration="28538000" />
       <workItem from="1569404974559" duration="13187000" />
       <workItem from="1569724961876" duration="10784000" />
-      <workItem from="1570069914539" duration="45533000" />
+      <workItem from="1570069914539" duration="48804000" />
     </task>
     <task id="LOCAL-00001" summary="xiugai">
       <created>1567477606074</created>
@@ -674,7 +708,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181421000" />
+    <option name="totallyTimeSpent" value="184692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -712,7 +746,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45066273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27098674" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -740,7 +774,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="75" />
+      <option name="time" value="78" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1195,8 +1229,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="22" />
+        <state relative-caret-position="270">
+          <caret line="123" column="39" lean-forward="false" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1173#1181#0" expanded="true" />

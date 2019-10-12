@@ -108,45 +108,35 @@ public class Exercise1 {
         int nTakeOver = 0 ; //溢出数量
 
         //2.把两个字符串补齐，即短字符串的高位用0补齐
-        if(len1 < len2)
-        {
-            for(int i = len1 ; i < len2 ; i++)
-            {
+        if(len1 < len2) {
+            for(int i = len1 ; i < len2 ; i++) {
                 n1 += "0";
             }
         }
-        else if (len1 > len2)
-        {
-            for(int i = len2 ; i < len1 ; i++)
-            {
+        else if (len1 > len2) {
+            for(int i = len2 ; i < len1 ; i++) {
                 n2 += "0";
             }
         }
 
         //3.把两个正整数相加，一位一位的加并加上进位
-        for(int i = 0 ; i < maxLen ; i++)
-        {
+        for(int i = 0 ; i < maxLen ; i++) {
             int nSum = Integer.parseInt(n1.charAt(i) +"") + Integer.parseInt(n2.charAt(i) +"");
-
-            if(nSum >= 10)
-            {
-                if(i == (maxLen - 1))
-                {
+            if(nSum >= 10) {
+                if(i == (maxLen - 1)) {
                     nOverFlow  = true;
                 }
                 nTakeOver = 1;
                 result.append(nSum - 10);
             }
-            else
-            {
+            else {
                 nTakeOver = 0;
                 result.append(nSum);
             }
         }
 
         //如果溢出的话表示位增加了
-        if(nOverFlow)
-        {
+        if(nOverFlow) {
             result.append(nTakeOver);
         }
         return result.reverse().toString();
@@ -154,7 +144,9 @@ public class Exercise1 {
 
     public static void main(String[] args) {
         //System.out.println(getCount("akakkahaha","ha"));
-        System.out.println(isComplete("[][][]{}}{}{]]]]]"));
+        //System.out.println(isComplete("[][][]{}}{}{]]]]]"));
+        System.out.println(add2("82344","829793"));
+
     }
 }
 
