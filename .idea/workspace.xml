@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f90317a-8c19-4596-8c55-738f839fb603" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/ApiAutoTest/all cases.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/ApiAutoTest/all cases.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/bullet_point.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/collapseall.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/emailable-report.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/failed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-cn.itcast.gjp.test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/ApiAutoTest/all cases.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/ApiAutoTest/classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/ApiAutoTest/groups.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/ApiAutoTest/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/ApiAutoTest/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/ApiAutoTest/methods-alphabetical.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/ApiAutoTest/methods-not-run.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/ApiAutoTest/methods.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/ApiAutoTest/reporter-output.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/ApiAutoTest/testng.xml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/ApiAutoTest/toc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/passed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/skipped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-reports.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-reports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-results.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise1.java" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,11 +42,11 @@
       <file leaf-file-name="Exercise1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="82" column="60" lean-forward="false" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
+            <state relative-caret-position="562">
+              <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1062#1070#0" expanded="true" />
+                <element signature="e#1173#1181#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -635,7 +608,7 @@
       <workItem from="1569295191513" duration="28538000" />
       <workItem from="1569404974559" duration="13187000" />
       <workItem from="1569724961876" duration="10784000" />
-      <workItem from="1570069914539" duration="44770000" />
+      <workItem from="1570069914539" duration="45533000" />
     </task>
     <task id="LOCAL-00001" summary="xiugai">
       <created>1567477606074</created>
@@ -701,7 +674,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180658000" />
+    <option name="totallyTimeSpent" value="181421000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -714,6 +687,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1440" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -726,7 +700,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4226804" sideWeight="0.48569384" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.460972" sideWeight="0.49713877" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.460972" sideWeight="0.49713877" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21745351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1221,11 +1195,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="82" column="60" lean-forward="false" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
+        <state relative-caret-position="562">
+          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1062#1070#0" expanded="true" />
+            <element signature="e#1173#1181#0" expanded="true" />
           </folding>
         </state>
       </provider>
