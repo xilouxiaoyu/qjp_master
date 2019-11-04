@@ -5,6 +5,7 @@ import org.springframework.scheduling.annotation.AsyncResult;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.concurrent.Future;
+import java.util.concurrent.FutureTask;
 
 /**
  * @author apple
@@ -76,7 +77,9 @@ public class SortService {
     public  Future<FutureCook.Chuju> futureStudy(){
         Thread thread = new Thread();
         ChucjuCallable chucjuCallable = new ChucjuCallable();
-        thread.start();
+        FutureTask<FutureCook.Chuju> Task = new FutureTask<FutureCook.Chuju>(chucjuCallable);
+        new Thread(Task).start();
+        //thread.start();
         ThreadLocal<Object> ThreadLocalStudy = new ThreadLocal<>();
         ThreadLocalStudy.set("");
         ThreadLocalStudy.get();
@@ -102,7 +105,6 @@ public class SortService {
         }*/
         SortService sortService = new SortService();
         sortService.futureStudy();
-
     }
 }
 

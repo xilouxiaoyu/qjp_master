@@ -121,7 +121,7 @@ public class Exercise1 {
 
         //3.把两个正整数相加，一位一位的加并加上进位
         for(int i = 0 ; i < maxLen ; i++) {
-            int nSum = Integer.parseInt(n1.charAt(i) +"") + Integer.parseInt(n2.charAt(i) +"");
+            int nSum = Integer.parseInt(n1.charAt(i) +"") + Integer.parseInt(n2.charAt(i) +"")+nTakeOver;
             if(nSum >= 10) {
                 if(i == (maxLen - 1)) {
                     nOverFlow  = true;
@@ -146,8 +146,8 @@ public class Exercise1 {
     public static void main(String[] args) {
         //System.out.println(getCount("akakkahaha","ha"));
         //System.out.println(isComplete("[][][]{}}{}{]]]]]"));
-        System.out.println(add2("82344","829793"));
-
+        System.out.println(add2("34","198"));
+        //hahhaajkja
     }
 
 
