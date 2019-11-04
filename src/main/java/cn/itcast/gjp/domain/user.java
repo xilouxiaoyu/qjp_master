@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
+
 /**
  * @author apple
  * @date 2019/8/27 下午6:33
@@ -12,10 +14,10 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
-public class user {
+@Builder(toBuilder=true)
+public class user implements Serializable {
     private int id = 100;
     private String nickName;
-    private String mobile;
+    public String mobile;
     private String realName;
 }
