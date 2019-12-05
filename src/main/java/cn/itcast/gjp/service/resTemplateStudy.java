@@ -21,11 +21,8 @@ public class resTemplateStudy{
     public  void queryBaidu() throws RestClientException, JSONException {
         RestTemplate restTemplate = new RestTemplate();
         HttpHeaders headers = new HttpHeaders();
-        headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
-        //JSONObject jsonObj = new JSONObject();
-        //jsonObj.put("start",1);
-        //jsonObj.put("page",5);
+        headers.setContentType(MediaType.APPLICATION_JSON);
         HttpEntity<MultiValueMap<String, String>> requestEntity = new HttpEntity(headers);
-        ResponseEntity<JSONObject> exchange = restTemplate.exchange("http://ckmobile-nginx-10-10-76-162.okd.iqianjin.test/userMemberCenter/home/personalCard", HttpMethod.GET, (HttpEntity<?>) requestEntity,JSONObject.class);
+        ResponseEntity<String> exchange = restTemplate.exchange("http://ckmobile-nginx-10-10-76-162.okd.iqianjin.test/userMemberLevel/sendRelegationAward", HttpMethod.GET, (HttpEntity<?>) requestEntity,String.class);
     }
 }

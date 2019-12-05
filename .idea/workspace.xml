@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f90317a-8c19-4596-8c55-738f839fb603" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_appium_java_client_7_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/People.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/androidUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/resTemplateStudy.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/json.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_android_tools_annotations_25_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_android_tools_annotations_25_1_3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_android_tools_common_25_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_android_tools_common_25_1_3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/json.java" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/appuimStudy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qjp.iml" afterPath="$PROJECT_DIR$/qjp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/ddmlibStudy.java" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/ddmlibStudy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/resTemplateStudy.java" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/resTemplateStudy.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,37 +53,10 @@
       <file leaf-file-name="resTemplateStudy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/resTemplateStudy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="23" column="70" lean-forward="true" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+            <state relative-caret-position="518">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpEntity.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/http/HttpEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding>
-                <element signature="e#2377#2378#0" expanded="true" />
-                <element signature="e#2400#2401#0" expanded="true" />
-                <element signature="e#2748#2749#0" expanded="true" />
-                <element signature="e#2774#2775#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpHeaders.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/http/HttpHeaders.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="408" column="26" lean-forward="true" selection-start-line="408" selection-start-column="26" selection-end-line="408" selection-end-column="26" />
-              <folding>
-                <element signature="e#16865#16866#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -726,7 +663,7 @@
       <workItem from="1574130317536" duration="570000" />
       <workItem from="1574839351488" duration="19684000" />
       <workItem from="1575280031807" duration="11776000" />
-      <workItem from="1575518322644" duration="6079000" />
+      <workItem from="1575518322644" duration="6781000" />
     </task>
     <task id="LOCAL-00001" summary="xiugai">
       <created>1567477606074</created>
@@ -763,15 +700,6 @@
     <history-entry file="resTemplateStudy - 2019.12.05 at 18h 22m 26s.xml">
       <configuration name="resTemplateStudy" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 16m 54s.xml">
-      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 18m 52s.xml">
-      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 22m 01s.xml">
-      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 23m 10s.xml">
       <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
     </history-entry>
@@ -781,18 +709,27 @@
     <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 24m 44s.xml">
       <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="resTemplateStudy_rtExchangeTest - 2019.12.05 at 18h 16m 04s.xml">
-      <configuration name="resTemplateStudy.rtExchangeTest" configurationId="TestNG" />
+    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 25m 05s.xml">
+      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="resTemplateStudy_rtExchangeTest - 2019.12.05 at 18h 16m 40s.xml">
-      <configuration name="resTemplateStudy.rtExchangeTest" configurationId="TestNG" />
+    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 27m 13s.xml">
+      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="resTemplateStudy_rtExchangeTest - 2019.12.05 at 18h 19m 04s.xml">
-      <configuration name="resTemplateStudy.rtExchangeTest" configurationId="TestNG" />
+    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 30m 54s.xml">
+      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 33m 50s.xml">
+      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 35m 37s.xml">
+      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 36m 27s.xml">
+      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265772000" />
+    <option name="totallyTimeSpent" value="266474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -855,10 +792,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/resTemplateStudy.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="84" />
+      <option name="time" value="85" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1247,8 +1192,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/resTemplateStudy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="23" column="70" lean-forward="true" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+        <state relative-caret-position="518">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
