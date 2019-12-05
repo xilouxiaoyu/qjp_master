@@ -19,7 +19,16 @@ public class resTemplateStudy{
         RestTemplate restTemplate = new RestTemplate();
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
-        HttpEntity<MultiValueMap<String, String>> requestEntity = new HttpEntity(headers);
-        ResponseEntity<JSONObject> exchange = restTemplate.exchange("http://member-center-server-nginx-10-10-76-162.okd.iqianjin.test/userMemberCenter/userMemberLevel/sendRelegationAward", HttpMethod.GET, (HttpEntity<?>) requestEntity,JSONObject.class);
+       /* HttpEntity<MultiValueMap<String, String>> requestEntity = new HttpEntity(headers);
+        ResponseEntity<JSONObject> exchange = restTemplate.exchange("http:", HttpMethod.GET, (HttpEntity<?>) requestEntity,JSONObject.class);*/
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("mobile","13012341246");
+        jsonObject.put("nameId","A25145492-E25745442");
+        jsonObject.put("token",";4zvkHRLT2W?q2@k;WsnYkQjU}i?y7GZlp>YI2pOK@B>ieKQ=VtHHVggVCiSweB1V");
+        jsonObject.put("userId","100004132");
+        HttpEntity httpEntity = new HttpEntity(jsonObject.toString(), headers);
+        restTemplate.exchange("http", HttpMethod.GET, (HttpEntity<?>) httpEntity,JSONObject.class);
+
+
     }
 }
