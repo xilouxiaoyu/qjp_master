@@ -28,7 +28,5 @@ public class resTemplateStudy{
         jsonObject.put("userId","1739273");
         HttpEntity httpEntity = new HttpEntity(jsonObject.toString(), headers);
         restTemplate.exchange("http", HttpMethod.GET, (HttpEntity<?>) httpEntity,JSONObject.class);
-
-
     }
 }

@@ -12,7 +12,6 @@ public class androidUtil {
 
     public static void getCpuInfo(IDevice iDevice) throws TimeoutException, AdbCommandRejectedException, ShellCommandUnresponsiveException, IOException {
         executeShellCommand(iDevice,"cat /proc/cpuinfo");
-
     }
 
     public static void executeShellCommand(IDevice iDevice,String cmd) throws TimeoutException, AdbCommandRejectedException, ShellCommandUnresponsiveException, IOException {
