@@ -1,5 +1,7 @@
 package cn.itcast.gjp.service;
 
+import cn.itcast.gjp.domain.user;
+
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -60,8 +62,16 @@ public class Exercise2 {
             System.out.println(entry.getKey()+" "+entry.getValue());
         }
     }
-
+    public <E> E getAge(E e){
+        return null;
+    }
     public static void main(String[] args) {
+        Exercise2 exercise2 = new Exercise2();
+        user<String> stringuser = new user<>();
+        exercise2.getAge("jkahkah7972");
+        exercise2.getAge(stringuser);
+
+
         listStudy();
         setStudy();
         mapStudy();

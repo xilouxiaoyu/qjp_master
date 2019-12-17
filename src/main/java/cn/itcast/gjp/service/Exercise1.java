@@ -141,6 +141,82 @@ public class Exercise1 {
         }
         return result.reverse().toString();
     }
+    public static int[] getTargetNums(int[] nums, int target) {
+        int[] tartgetNum = new int[2];
+        for(int i=0; i<nums.length -1; i++) {
+            //优化，只考虑i位置后面的元素，前面的元素其实已经被过滤掉了
+            for(int j= i+1; j<nums.length;j++) {
+                if((nums[i] + nums[j]) == target) {
+                    tartgetNum[0] = i;
+                    tartgetNum[1] = j;
+                    return tartgetNum;
+                }
+            }
+        }
+        return tartgetNum;
+    }
+
+    //冒泡排序
+    public void BulleSort() {
+        System.out.println("2、交换排序->冒泡排序");
+
+    int[] a = {12,20,5,16,15,1,30,45,23,9};
+
+    for(int i = 0; i < a.length -1; i++) {
+        // 采用第一层循环来控制循环的次 数，一共循环a.length-1次
+        // 这样会循环到倒数第二个元素
+         for (int j = i + 1; j < a.length; j++) {
+             // 第二层循环来交换位置，j在 i的基础上+1是因为当前的值要和他身后的元素比较大小，直至最后一个。
+             //（ // 因为第二次循环直至最后一 个所以第一层循环才会a.length-1）
+              if (a[i] > a[j]) {
+                  int temp = a[i];
+                  a[i] = a[j];
+                  a[j] = temp;
+              }
+         }
+    }
+    }
+
+    //快速排序
+        private static void quickSort(int[] arr, int low, int high) {
+
+            if (low < high) {
+                // 找寻基准数据的正确索引
+                int index = getIndex(arr, low, high);
+
+                // 进行迭代对index之前和之后的数组进行相同的操作使整个数组变成有序
+                quickSort(arr, 0, index - 1);
+                quickSort(arr, index + 1, high);
+            }
+
+        }
+
+        private static int getIndex(int[] arr, int low, int high) {
+            // 基准数据
+            int tmp = arr[low];
+            while (low < high) {
+                // 当队尾的元素大于等于基准数据时,向前挪动high指针
+                while (low < high && arr[high] >= tmp) {
+                    high--;
+                }
+                // 如果队尾元素小于tmp了,需要将其赋值给low
+                arr[low] = arr[high];
+                // 当队首元素小于等于tmp时,向前挪动low指针
+                while (low < high && arr[low] <= tmp) {
+                    low++;
+                }
+                // 当队首元素大于tmp时,需要将其赋值给high
+                arr[high] = arr[low];
+
+            }
+            // 跳出循环时low和high相等,此时的low或high就是tmp的正确索引位置
+            // 由原理部分可以很清楚的知道low位置的值并不是tmp,所以需要将tmp赋值给arr[low]
+            arr[low] = tmp;
+            return low; // 返回tmp的正确位置
+        }
+
+
+
 
 
     public static void main(String[] args) {
