@@ -67,7 +67,7 @@ public class Exercise2 {
     }
     public static void main(String[] args) {
         Exercise2 exercise2 = new Exercise2();
-        user<String> stringuser = new user<>();
+        user stringuser = new user();
         exercise2.getAge("jkahkah7972");
         exercise2.getAge(stringuser);
 
