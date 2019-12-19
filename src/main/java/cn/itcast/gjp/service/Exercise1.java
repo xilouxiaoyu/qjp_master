@@ -313,21 +313,7 @@ public class Exercise1 {
     }
 
 
-    //上楼梯每次只需一步或者两步，有多少走法
-    public static void calc(String log, int num){
-        int i = 0;
-        if (num == 0) {
-            i++;
-            System.out.println(log.substring(0,log.length()-1));
-            return;
-        }else if(num == 1) {
-            i++;
-            System.out.println(log+"1");
-            return;
-        }
-        calc(log+"1,", num - 1);
-        calc(log+"2,", num - 2);
-    }
+
     //上楼梯每次只需一步或者两步，有多少走法
     public static int ways(int n){
         if(n==1)
@@ -344,7 +330,7 @@ public class Exercise1 {
         //System.out.println(add2("34","198"));
         //hahhaajkja
         //System.out.println(atoi2("12137"));
-        System.out.println(ways(10));
+        System.out.println(ways(5));
     }
 }
 

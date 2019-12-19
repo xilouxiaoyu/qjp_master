@@ -40,8 +40,8 @@
       <file leaf-file-name="Exercise1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="346" column="37" lean-forward="true" selection-start-line="346" selection-start-column="37" selection-end-line="346" selection-end-column="37" />
+            <state relative-caret-position="478">
+              <caret line="346" column="33" lean-forward="false" selection-start-line="346" selection-start-column="33" selection-end-line="346" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -874,7 +874,7 @@
       <workItem from="1575518322644" duration="13855000" />
       <workItem from="1575967231823" duration="2546000" />
       <workItem from="1576062112693" duration="62000" />
-      <workItem from="1576640452154" duration="8242000" />
+      <workItem from="1576640452154" duration="8479000" />
     </task>
     <task id="LOCAL-00001" summary="xiugai">
       <created>1567477606074</created>
@@ -940,7 +940,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284398000" />
+    <option name="totallyTimeSpent" value="284635000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1398,8 +1398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="346" column="37" lean-forward="true" selection-start-line="346" selection-start-column="37" selection-end-line="346" selection-end-column="37" />
+        <state relative-caret-position="478">
+          <caret line="346" column="33" lean-forward="false" selection-start-line="346" selection-start-column="33" selection-end-line="346" selection-end-column="33" />
           <folding />
         </state>
       </provider>
