@@ -321,6 +321,56 @@ public class Exercise1 {
         if(n==2) return 2;
         return ways(n-1)+ways(n-2);
     }
+    public static int compareVersion2(String v1,String v2){
+        if(v1.equals(v2)){
+            return 0;
+        }
+
+        String[] version1 = v1.split("\\.");
+        String[] version2 = v2.split("\\.");
+
+        long diff=0;
+        int index=0;
+        int minLen=Math.min(version1.length,version2.length);
+        while(index<minLen&&(diff=Long.parseLong(version1[index])-Long.parseLong(version2[index]))==0)
+            index++;
+        if(diff==0){
+            if((version1.length-version2.length)>0){
+                return 1;
+            }if((version1.length-version2.length)<0){
+                return -1;
+            }
+        }
+
+        return diff>0?1:-1;
+    }
+
+    public static void merge(int[] m,int[] n) {
+        int i = 0, j = 0, count = 0;
+        int msize = m.length;
+        int nsize = n.length;
+        int[] k = new int[m.length + n.length];
+        while (i < msize && j < nsize) {
+            if (m[i] < n[j]) {
+                k[count++] = m[i++];
+            } else {
+                k[count++] = n[j++];
+            }
+        }
+        if (i >= msize) {
+            while (j < n.length) {
+                k[count++] = n[j++];
+            }
+        }
+        if (j >= nsize) {
+            while (i < m.length) {
+                k[count++] = m[i++];
+            }
+        }
+        for(int w=0;w<count;w++){
+            System.out.println(k[w]);
+        }
+    }
 
     public static void main(String[] args) throws Exception {
         //System.out.println(getCount("akakkahaha","ha"));
@@ -329,9 +379,10 @@ public class Exercise1 {
         //hahhaajkja
         //System.out.println(atoi2("12137"));
         //System.out.println(ways(5));
-        compareVersion("7.5.10","7.5.1");
-
-
+        //System.out.println(compareVersion2("7.5.1.1","7.5.9"));
+        /*int[] m={1,2,23};
+        int[] n={7,23,44,34,44};
+        merge(m,n);*/
     }
 }
 
