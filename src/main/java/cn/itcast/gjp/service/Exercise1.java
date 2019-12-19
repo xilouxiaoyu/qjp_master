@@ -214,7 +214,7 @@ public class Exercise1 {
             arr[low] = tmp;
             return low; // 返回tmp的正确位置
         }
-
+    //atoi实现方式1
     public static long atoi(String str) throws Exception {
         long value = 0;
         boolean negative = false;
@@ -240,7 +240,7 @@ public class Exercise1 {
 
         return negative==true ? -1*value:value;
     }
-
+    //atoi实现方式2
     public static long atoi2(String str) throws Exception {
         long value = 0;
         boolean negative = false;
@@ -269,7 +269,72 @@ public class Exercise1 {
         return negative==true ? -1*value:value;
     }
 
+    /**
+     *字典排序
+     */
+    public static String[] arraySort(String[] input){
+        for (int i=0;i<input.length-1;i++){
+            for (int j=0;j<input.length-i-1;j++) {
+                if(input[j].compareTo(input[j+1])>0){
+                    String temp=input[j];
+                    input[j]=input[j+1];
+                    input[j+1]=temp;
+                }
+            }
+        }
+        return input;
+    }
+    //比较客户端版本大小
+    public static int compareVersion(String v1,String v2)
+    {
+        if(v1.equals(v2))
+        {
+            return 0;
+        }
+        String[] version1=v1.split("\\.");
+        String[] version2=v2.split("\\.");
+        int index=0;
+        int minLen=Math.min(version1.length, version2.length);
+        long diff=0;
+        while(index<minLen&&(diff=Long.parseLong(version1[index])-Long.parseLong(version2[index]))==0)
+            index++;
+        if(diff==0)
+        {
+            for(int i=index;i<version1.length;i++)
+                if(Long.parseLong(version1[i])>0)
+                    return 1;
+            for(int i=index;i<version2.length;i++)
+                if(Long.parseLong(version2[i])>0)
+                    return -1;
+            return 0;
+        }else {
+            return diff>0?1:-1;
+        }
+    }
 
+
+    //上楼梯每次只需一步或者两步，有多少走法
+    public static void calc(String log, int num){
+        int i = 0;
+        if (num == 0) {
+            i++;
+            System.out.println(log.substring(0,log.length()-1));
+            return;
+        }else if(num == 1) {
+            i++;
+            System.out.println(log+"1");
+            return;
+        }
+        calc(log+"1,", num - 1);
+        calc(log+"2,", num - 2);
+    }
+    //上楼梯每次只需一步或者两步，有多少走法
+    public static int ways(int n){
+        if(n==1)
+            return 1;
+        if(n==2) return 2;
+        return ways(n-1)+ways(n-2);
+    }
 
 
 
@@ -278,10 +343,8 @@ public class Exercise1 {
         //System.out.println(isComplete("[][][]{}}{}{]]]]]"));
         //System.out.println(add2("34","198"));
         //hahhaajkja
-        System.out.println(atoi2("12137"));
-
+        //System.out.println(atoi2("12137"));
+        System.out.println(ways(10));
     }
-
-
 }
 

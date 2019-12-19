@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f90317a-8c19-4596-8c55-738f839fb603" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Consumer.java" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Consumer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise1.java" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,7 +30,7 @@
       <file leaf-file-name="Exercise2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="399">
               <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
               <folding />
             </state>
@@ -41,8 +40,8 @@
       <file leaf-file-name="Exercise1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="271" column="3" lean-forward="false" selection-start-line="271" selection-start-column="3" selection-end-line="271" selection-end-column="3" />
+            <state relative-caret-position="486">
+              <caret line="346" column="37" lean-forward="true" selection-start-line="346" selection-start-column="37" selection-end-line="346" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -875,7 +874,7 @@
       <workItem from="1575518322644" duration="13855000" />
       <workItem from="1575967231823" duration="2546000" />
       <workItem from="1576062112693" duration="62000" />
-      <workItem from="1576640452154" duration="4113000" />
+      <workItem from="1576640452154" duration="8242000" />
     </task>
     <task id="LOCAL-00001" summary="xiugai">
       <created>1567477606074</created>
@@ -941,7 +940,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280269000" />
+    <option name="totallyTimeSpent" value="284398000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1345,14 +1344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Goods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-318">
@@ -1397,10 +1388,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="271" column="3" lean-forward="false" selection-start-line="271" selection-start-column="3" selection-end-line="271" selection-end-column="3" />
+        <state relative-caret-position="486">
+          <caret line="346" column="37" lean-forward="true" selection-start-line="346" selection-start-column="37" selection-end-line="346" selection-end-column="37" />
           <folding />
         </state>
       </provider>
