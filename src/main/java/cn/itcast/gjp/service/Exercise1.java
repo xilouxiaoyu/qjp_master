@@ -322,15 +322,16 @@ public class Exercise1 {
         return ways(n-1)+ways(n-2);
     }
 
-
-
     public static void main(String[] args) throws Exception {
         //System.out.println(getCount("akakkahaha","ha"));
         //System.out.println(isComplete("[][][]{}}{}{]]]]]"));
         //System.out.println(add2("34","198"));
         //hahhaajkja
         //System.out.println(atoi2("12137"));
-        System.out.println(ways(5));
+        //System.out.println(ways(5));
+        compareVersion("7.5.10","7.5.1");
+
+
     }
 }
 
