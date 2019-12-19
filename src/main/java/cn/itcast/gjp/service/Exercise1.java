@@ -215,15 +215,71 @@ public class Exercise1 {
             return low; // 返回tmp的正确位置
         }
 
+    public static long atoi(String str) throws Exception {
+        long value = 0;
+        boolean negative = false;
+        if(str == null || "".equals(str) ){
+            throw new Exception("the str cannot be null!");
+        }
+        for(int i = 0; i<str.length() ; i++) {
+            if(i==0 && (str.charAt(0)=='+' || str.charAt(0)=='-') ) {
+                if(str.charAt(0)=='-') {
+                    negative = true;
+                }
+            }else {
+                if(str.charAt(i)>='0' && str.charAt(i)<='9') {
+                    value = value*10 + str.charAt(i)-'0';
+                    if (value > Integer.MAX_VALUE) {
+                        throw new Exception("OUT OF INTEGER RANGE");
+                    }
+                }else {
+                    throw new NumberFormatException("not an integer!");
+                }
+            }
+        }
+
+        return negative==true ? -1*value:value;
+    }
+
+    public static long atoi2(String str) throws Exception {
+        long value = 0;
+        boolean negative = false;
+        if(str == null || "".equals(str) ){
+            throw new Exception("the str cannot be null!");
+        }
+        int num_lengths = str.length();
+        if(str.charAt(0)=='+' || str.charAt(0)=='-') {
+            if(str.charAt(0)=='-') {
+                negative = true;
+                num_lengths--;
+            }
+        }
+
+        for(int i=(str.length() - num_lengths); i<str.length();i++ ,num_lengths--) {
+            if(str.charAt(i)>='0' && str.charAt(i)<='9') {
+                System.out.println(str.charAt(i)-'0');
+                value +=  (str.charAt(i)-'0')*Math.pow(10, (num_lengths-1));
+                if (value > Integer.MAX_VALUE) {
+                    throw new Exception("OUT OF INTEGER RANGE");
+                }
+            }else {
+                throw new NumberFormatException("not an integer!");
+            }
+        }
+        return negative==true ? -1*value:value;
+    }
 
 
 
 
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws Exception {
         //System.out.println(getCount("akakkahaha","ha"));
         //System.out.println(isComplete("[][][]{}}{}{]]]]]"));
-        System.out.println(add2("34","198"));
+        //System.out.println(add2("34","198"));
         //hahhaajkja
+        System.out.println(atoi2("12137"));
+
     }
 
 
