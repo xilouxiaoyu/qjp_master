@@ -18,4 +18,9 @@ public class androidUtil {
         CollectingOutputReceiver collectingOutputReceiver = new CollectingOutputReceiver();
         iDevice.executeShellCommand(cmd,collectingOutputReceiver);
     }
+
+    public static void main(String[] args) throws Exception{
+        Process exec = Runtime.getRuntime().exec("cd / ; ll");
+        System.out.println(exec);
+    }
 }

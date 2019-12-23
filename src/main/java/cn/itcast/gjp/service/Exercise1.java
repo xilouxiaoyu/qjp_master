@@ -1,8 +1,12 @@
 package cn.itcast.gjp.service;
 
+import com.alibaba.druid.sql.visitor.functions.Char;
 import lombok.val;
 import org.w3c.dom.NodeList;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 /**
@@ -372,6 +376,47 @@ public class Exercise1 {
         }
     }
 
+    public static boolean match(String s){
+
+        Stack<String> leftStack1 = new Stack<>();
+        Stack<String> leftStack2 = new Stack<>();
+        Stack<String> leftStack3 = new Stack<>();
+        while(!s.isEmpty()) {
+            String character = s.substring(0, 1);
+            s = s.substring(1);
+            if (character.equals("(")) {
+                leftStack1.push(character);
+            }
+            if (character.equals("[")) {
+                leftStack2.push(character);
+            }
+            if (character.equals("{")) {
+                leftStack3.push(character);
+            }
+
+            if (character.equals(")")) {
+                if (leftStack1.empty()) {
+                    return false;
+                }
+                String leftChar = leftStack1.pop();
+            }
+            if (character.equals("]")) {
+                if (leftStack2.empty()) {
+                    return false;
+                }
+                String leftChar = leftStack2.pop();
+            }
+            if (character.equals("}")) {
+                if (leftStack3.empty()) {
+                    return false;
+                }
+                String leftChar = leftStack3.pop();
+            }
+
+        }
+            return leftStack1.isEmpty() && leftStack2.isEmpty() && leftStack3.isEmpty();
+    }
+
     public static void main(String[] args) throws Exception {
         //System.out.println(getCount("akakkahaha","ha"));
         //System.out.println(isComplete("[][][]{}}{}{]]]]]"));
@@ -383,6 +428,7 @@ public class Exercise1 {
         /*int[] m={1,2,23};
         int[] n={7,23,44,34,44};
         merge(m,n);*/
+        System.out.println(match("kaj({)}]"));
     }
 }
 
