@@ -1,15 +1,14 @@
 package cn.itcast.gjp.service;
 
-import lombok.extern.slf4j.Slf4j;
-import sun.rmi.runtime.Log;
 
+//import jdk.internal.jline.internal.Log;
 import java.io.IOException;
 
 /**
  * @author apple
  * @date 2019/12/23 下午2:58
  */
-@Slf4j
+
 public class AppiumServer {
 
     public AppiumServer() {
@@ -21,7 +20,7 @@ public class AppiumServer {
         String Command = "ps -ef | grep appuim | awk '{print \"kill -9 \" $2}'|sh";
 
         runCommand(Command);
-        log.info("appuim 服务关闭");
+
     }
 
     public void runServer(int port, String udid) {
@@ -34,7 +33,7 @@ public class AppiumServer {
         // mac 启动命令 appium appium -a 127.0.0.1 -p  4723 --session-override &
 
         runCommand(Command);
-        log.info("appuim 启动成功");
+
     }
 
     private void runCommand(String command) {

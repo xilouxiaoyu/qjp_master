@@ -1,12 +1,5 @@
 package cn.itcast.gjp.service;
 
-import com.alibaba.druid.sql.visitor.functions.Char;
-import lombok.val;
-import org.w3c.dom.NodeList;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
 /**
@@ -417,6 +410,120 @@ public class Exercise1 {
             return leftStack1.isEmpty() && leftStack2.isEmpty() && leftStack3.isEmpty();
     }
 
+
+    static class Node<T>{
+        private Node next;
+        private T value;
+
+        public void foreach() {
+            Node node = next;
+            System.out.println(value);
+            while (node != null) {
+                System.out.println(node.value);
+                node = node.next;
+            }
+        }
+
+        public Node(Node next, T value) {
+            this.next = next;
+            this.value = value;
+        }
+
+        public Node() {
+        }
+
+        public void add(T value) {
+            Node node = new Node<T>(null, value);
+            next = node;
+        }
+
+        public Node getNext() {
+            return next;
+        }
+
+        public void setNext(Node next) {
+            this.next = next;
+        }
+
+        public T getValue() {
+            return value;
+        }
+
+        public void setValue(T value) {
+            this.value = value;
+        }
+
+    }
+    //单链表翻转
+    public static Node reverse(Node srcNode) {
+        Node dscNode = srcNode;
+        Node tail = srcNode;
+        Node head = srcNode;
+        while (tail.next != null) {
+            Node next2 = tail.next.next;
+            tail.next.next = head;
+            head = tail.next;
+            tail.next = next2;
+            if (tail.next == null) {
+                return head;
+            }
+        }
+        return dscNode;
+    }
+    //单链表是否有环
+    public static boolean hasHoop(Node node){
+         Node slow;
+         Node fast;
+         Node head;
+         slow = node.next;
+         fast = node.next.next;
+         while (slow !=null && fast.next!= null){
+             slow = slow.next;
+             fast = fast.next.next;
+             if(slow == fast){
+                 return true;
+             }
+         }
+        return false;
+    }
+    //单链表找到环的入口
+    public static Node detectCycle(Node node){
+        Node slow;
+        Node fast;
+        Node head = node;
+        slow = node.next;
+        fast = node.next.next;
+        while (slow !=null && fast.next!= null){
+            slow = slow.next;
+            fast = fast.next.next;
+            if(slow == fast){
+                break;
+            }
+    }
+        Node p = head;
+        Node cross= slow;
+        if (head != slow){
+            head = head.next;
+            p= p.next;
+        }
+        return  p;
+    }
+
+    public static String toUpperFirstCode(String str){
+        String[] s = str.split(" ");
+        StringBuffer stringBuffer = new StringBuffer();
+        for(String ss:s){
+            char[] ch =ss.toCharArray();
+            if (ch[0] >= 'a' && ch[0] <= 'z') {
+                ch[0] = (char) (ch[0] - 32);
+            }
+            String strT = new String(ch);
+            stringBuffer = stringBuffer.append(ss).append(" ");
+        }
+        return stringBuffer.toString();
+    }
+
+
     public static void main(String[] args) throws Exception {
         //System.out.println(getCount("akakkahaha","ha"));
         //System.out.println(isComplete("[][][]{}}{}{]]]]]"));
@@ -428,7 +535,19 @@ public class Exercise1 {
         /*int[] m={1,2,23};
         int[] n={7,23,44,34,44};
         merge(m,n);*/
-        System.out.println(match("kaj({)}]"));
+        //System.out.println(match("kaj({)}]"));
+        //单链表
+        /*Node node1 = new Node<Integer>(null, 1);
+        Node node2 = new Node<Integer>(null, 2);
+        Node node3 = new Node<Integer>(null, 3);
+        Node node4 = new Node<Integer>(null, 4);
+        node1.next = node2;
+        node2.next = node3;
+        node3.next = node4;
+        node1.foreach();
+        reverse(node1).foreach();*/
+        System.out.println(toUpperFirstCode("uau jlajl jkaj jkja"));
+
     }
 }
 

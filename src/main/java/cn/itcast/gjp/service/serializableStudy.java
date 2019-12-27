@@ -14,12 +14,12 @@ public class serializableStudy  {
 
     public void exer()throws Exception{
 
-        user user1= user.builder().mobile("18510217186").build();
-        user1 = user1.toBuilder().mobile("130000000").build();
+        //user user1= user.builder().mobile("18510217186").build();
+        //user1 = user1.toBuilder().mobile("130000000").build();
 
         FileOutputStream f = new FileOutputStream(new File("foo.ser"));
         ObjectOutputStream os = new ObjectOutputStream(f);
-        os.writeObject(user1);
+        //os.writeObject(user1);
         os.close();
     }
 }
