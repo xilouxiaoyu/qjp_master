@@ -20,4 +20,8 @@ public class user implements Serializable {
     private String nickName;
     public String mobile;
     private String realName;
+
+    public void study(String nickName){
+        System.out.println(nickName+" is studing now");
+    }
 }

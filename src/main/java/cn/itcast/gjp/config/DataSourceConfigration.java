@@ -1,4 +1,4 @@
-package cn.itcast.gjp.configuration;
+package cn.itcast.gjp.config;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;

@@ -21,7 +21,7 @@ public class AsyncStudyService {
         System.out.println("Execute method asynchronously."+Thread.currentThread().getName());
     }
 
-    @Async
+    @Async("taskExecutor")
     public Future<String> asyncMethodWithReturnType(){
         System.out.println("Execute method asynchronously."+Thread.currentThread().getName());
         try {

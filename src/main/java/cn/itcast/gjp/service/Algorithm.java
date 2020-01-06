@@ -1,16 +1,18 @@
 package cn.itcast.gjp.service;
 
+import java.util.HashSet;
 import java.util.Stack;
 
 /**
  * @author apple
  * @date 2019/10/11 下午5:52
  */
-public class Exercise1 {
+public class Algorithm {
 
     /**
      * 计算字符串中含有另一个字符串的个数
      */
+    @Deprecated
     public static int  getCount(String str,String key){
         if(str == null || key == null || "".equals(str.trim()) || "".equals(key.trim())){
             return 0;
@@ -518,24 +520,117 @@ public class Exercise1 {
                 ch[0] = (char) (ch[0] - 32);
             }
             String strT = new String(ch);
-            stringBuffer = stringBuffer.append(ss).append(" ");
+            stringBuffer = stringBuffer.append(strT).append(" ");
         }
         return stringBuffer.toString();
     }
+    //二分法查找
+    public static int search(int key ,int[] arr){
+        int start = 0;
+        int end = arr.length-1;
+        while (start<=end){
+            int mid =(start+end)/2;
+            if(key<arr[mid]){
+                end=mid-1;
+            } else if(key>arr[mid]) {
+                start=mid+1;
+            }else {
+                return mid;
+            }
+        }
+        return -1;
+    }
+    //判断是否是素数
+    public static boolean isPrime(int a){
+        boolean isPrime = true;
+        for(int i = 2;i<a;i++){
+            if(a%i==0){
+              isPrime =false;
+              break;
+            }
+        }
+        return isPrime;
+    }
 
+    //求字符串中重复字符串最大的长度
+    public static void maxRepeating(String str)
+    {
+        char[] array = str.toCharArray();
+        int count = 1;
+        int max = 0;
+        char maxChar = 0;
+        int maxIndex=0;
+        for(int i=1; i<array.length; i++){ // Start from 1 since we want to compare it with the char in index 0
+            if(array[i]==array[i-1]){
+                count++;
+            } else {
+                if(count>max){  // Record current run length, is it the maximum?
+                    max=count;
+                    maxChar=array[i-1];
+                    maxIndex=i-1;
+                }
+                count = 1; // Reset the count
+            }
+        }
+        if(count>max){
+            max=count; // This is to account for the last run
+            maxChar=array[array.length-1];
+            maxIndex=array.length-1;
+        }
+        System.out.println("Longest run: "+max+", for the character "+maxChar+"and the max char index is:"+maxIndex);
+        System.out.println(str.substring(maxIndex-(max-1),maxIndex+1));
+
+    }
+
+    //给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度
+    public static int lengthOfLongestSubstring(String s) {
+        if (s.isEmpty()){//判断字符串是否为空
+            return 0;
+        }else{//不为空
+            int max=1;//从第一个字符开始，假设1就为最大值
+            int sum=1;
+            String s1=""+s.charAt(0);//获取字符串中第一个字符，将其作为flag
+            if(s.length()==1){
+                return 1;//判断字符串长度是否为1，为1直接返回1
+            }
+            for (int i = 1; i < s.length(); i++) {
+                //从第二个字符开始遍历
+                if(s1.indexOf(""+s.charAt(i))!=-1){
+                    //判断flag字符中是否还有下一个字符
+                    int n1=s1.length()-s1.indexOf(""+s.charAt(i))-1;
+                    //找到flag字符中含有下一个字符的位置,并截取其后字符的长度
+                    sum=n1+1;
+                    s1=s1.substring(s1.indexOf(""+s.charAt(i))+1,s1.length())+s.charAt(i);//截取原flag其后字符并加上末端的重复字符形成新的flag字符
+                }else{
+                    sum=sum+1;
+                    //flag字符中没有有下一个字符，sum+1并在flag字符中加上下一个字符
+                    s1=s1+s.charAt(i);
+                }
+                if(sum>max){//当sum>max,替换max
+                    max=sum;
+                }
+            }
+            return max;
+        }
+
+    }
+    public static int maxlength(String str) {
+        int max=1;
+        String s1=""+str.charAt(0);
+        //System.out.println(Integer.parseInt("123456"));
+        for(int i=1;i<str.length();i++){
+            if(s1.indexOf(""+ str.charAt(i))==-1){
+                s1=s1+""+str.charAt(i);
+            }else {
+               s1 = s1.substring(s1.indexOf(""+ str.charAt(i))+1) + str.charAt(i);
+            }
+            max = Math.max(s1.length(),max);
+
+        }
+        return max;
+    }
 
     public static void main(String[] args) throws Exception {
-        //System.out.println(getCount("akakkahaha","ha"));
-        //System.out.println(isComplete("[][][]{}}{}{]]]]]"));
-        //System.out.println(add2("34","198"));
-        //hahhaajkja
-        //System.out.println(atoi2("12137"));
-        //System.out.println(ways(5));
-        //System.out.println(compareVersion2("7.5.1.1","7.5.9"));
-        /*int[] m={1,2,23};
-        int[] n={7,23,44,34,44};
-        merge(m,n);*/
-        //System.out.println(match("kaj({)}]"));
         //单链表
         /*Node node1 = new Node<Integer>(null, 1);
         Node node2 = new Node<Integer>(null, 2);
@@ -546,8 +641,8 @@ public class Exercise1 {
         node3.next = node4;
         node1.foreach();
         reverse(node1).foreach();*/
-        System.out.println(toUpperFirstCode("uau jlajl jkaj jkja"));
-
+        String str = "aaaaaaabaa";
+        System.out.println(maxlength(str));
     }
 }
 

@@ -11,7 +11,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
  * @date 2019/8/30 下午5:41
  */
 @SpringBootApplication
-@EnableAutoConfiguration
+//@EnableAutoConfiguration
 @ServletComponentScan
 @EnableAsync
 public class Application {
