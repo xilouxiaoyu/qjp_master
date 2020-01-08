@@ -2,29 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f90317a-8c19-4596-8c55-738f839fb603" name="Default" comment="readfile2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Proxy/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Proxy/JavaDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Proxy/ProxyInvoke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Proxy/testProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Algorithm2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/ReflectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/scheduleStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pro.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Proxy/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Consume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Produce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/ProduceConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/upLoadFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qjp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/qjp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/config/AsyncConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/config/AsyncConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/configuration/DataSourceConfigration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/config/DataSourceConfigration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/domain/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/domain/user.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/AsyncStudyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/AsyncStudyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Algorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/config/AsyncConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/config/AsyncConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/configuration/DataSourceConfigration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/domain/user.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/domain/user.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/AsyncStudyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/AsyncStudyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/Exercise1$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/Exercise1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Proxy/JavaDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Proxy/JavaDeveloper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Proxy/testProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Proxy/testProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/Proxy/JavaDeveloper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/Proxy/JavaDeveloper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/Proxy/testProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/Proxy/testProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/Consumer.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +154,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.testProxy">
+  <component name="RunManager" selected="Application.ProduceConsumer">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -187,13 +176,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.gjp.Application" />
+    <configuration name="ProduceConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.gjp.service.ProduceConsumer" />
       <module name="qjp" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.gjp.*" />
+          <option name="PATTERN" value="cn.itcast.gjp.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,19 +277,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Application" />
       <item itemvalue="Application.scheduleStudy" />
       <item itemvalue="Application.Algorithm2" />
       <item itemvalue="Application.ReflectTest" />
       <item itemvalue="Application.testProxy" />
+      <item itemvalue="Application.ProduceConsumer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProduceConsumer" />
         <item itemvalue="Application.testProxy" />
         <item itemvalue="Application.Algorithm2" />
         <item itemvalue="Application.ReflectTest" />
         <item itemvalue="Application.scheduleStudy" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +358,8 @@
       <workItem from="1577257745107" duration="32561000" />
       <workItem from="1578050917004" duration="1669000" />
       <workItem from="1578209766091" duration="19211000" />
-      <workItem from="1578316540180" duration="2999000" />
+      <workItem from="1578316540180" duration="13997000" />
+      <workItem from="1578472096609" duration="267000" />
     </task>
     <task id="LOCAL-00001" summary="xiugai">
       <created>1567477606074</created>
@@ -456,18 +446,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="readfile2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1578319074827">
+    <state x="533" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1578471323326">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="533" y="117" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1578319074827" />
+    <state x="533" y="117" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1578471323326" />
     <state x="569" y="333" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1577244385783">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="569" y="333" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.808@0.23.1440.808" timestamp="1577244385783" />
-    <state x="483" y="136" key="#xdebugger.evaluate" timestamp="1577714620305">
+    <state x="483" y="136" key="#xdebugger.evaluate" timestamp="1578380794792">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="483" y="136" key="#xdebugger.evaluate/0.23.1440.797@0.23.1440.797" timestamp="1577714620305" />
+    <state x="483" y="136" key="#xdebugger.evaluate/0.23.1440.797@0.23.1440.797" timestamp="1578380794792" />
     <state x="266" y="23" width="907" height="797" key="CommitChangelistDialog2" timestamp="1578305543719">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -476,38 +466,38 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="451" height="466" key="DebuggerActiveHint/0.23.1440.797@0.23.1440.797" timestamp="1577354018081" />
-    <state width="1358" height="210" key="GridCell.Tab.0.bottom" timestamp="1578319610394">
+    <state width="1358" height="380" key="GridCell.Tab.0.bottom" timestamp="1578472448633">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="210" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1578319610394" />
-    <state width="1358" height="210" key="GridCell.Tab.0.center" timestamp="1578319610393">
+    <state width="1358" height="380" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1578472448633" />
+    <state width="1358" height="380" key="GridCell.Tab.0.center" timestamp="1578472448632">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="210" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1578319610393" />
-    <state width="1358" height="210" key="GridCell.Tab.0.left" timestamp="1578319610393">
+    <state width="1358" height="380" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1578472448632" />
+    <state width="1358" height="380" key="GridCell.Tab.0.left" timestamp="1578472448631">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="210" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1578319610393" />
-    <state width="1358" height="210" key="GridCell.Tab.0.right" timestamp="1578319610394">
+    <state width="1358" height="380" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1578472448631" />
+    <state width="1358" height="380" key="GridCell.Tab.0.right" timestamp="1578472448633">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="210" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1578319610394" />
-    <state width="1358" height="189" key="GridCell.Tab.1.bottom" timestamp="1578306740365">
+    <state width="1358" height="380" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1578472448633" />
+    <state width="1358" height="189" key="GridCell.Tab.1.bottom" timestamp="1578384124068">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="189" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1578306740365" />
-    <state width="1358" height="189" key="GridCell.Tab.1.center" timestamp="1578306740364">
+    <state width="1358" height="189" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1578384124068" />
+    <state width="1358" height="189" key="GridCell.Tab.1.center" timestamp="1578384124067">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="189" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1578306740364" />
-    <state width="1358" height="189" key="GridCell.Tab.1.left" timestamp="1578306740364">
+    <state width="1358" height="189" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1578384124067" />
+    <state width="1358" height="189" key="GridCell.Tab.1.left" timestamp="1578384124067">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="189" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1578306740364" />
-    <state width="1358" height="189" key="GridCell.Tab.1.right" timestamp="1578306740365">
+    <state width="1358" height="189" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1578384124067" />
+    <state width="1358" height="189" key="GridCell.Tab.1.right" timestamp="1578384124068">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="189" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1578306740365" />
+    <state width="1358" height="189" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1578384124068" />
     <state x="258" y="88" key="Maven.ArtifactSearchDialog" timestamp="1578217024117">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -530,10 +520,10 @@
     </state>
     <state x="378" y="85" width="683" height="729" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1577244633797" />
     <state x="378" y="99" width="683" height="655" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1577254992898" />
-    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1578303729673">
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1578393063255">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1578303729673" />
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1578393063255" />
   </component>
   <component name="masterDetails">
     <states>
