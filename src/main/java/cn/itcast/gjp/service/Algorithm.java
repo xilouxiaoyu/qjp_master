@@ -12,8 +12,10 @@ public class Algorithm {
     /**
      * 计算字符串中含有另一个字符串的个数
      */
-    @Deprecated
+
     public static int  getCount(String str,String key){
+
+
         if(str == null || key == null || "".equals(str.trim()) || "".equals(key.trim())){
             return 0;
         }

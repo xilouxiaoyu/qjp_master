@@ -78,11 +78,21 @@ public class Algorithm2 {
         }
         return s.substring(start, end+1);
     }
+    public static int removeDuplicates(int[] a){
+        int j=0;
+        for(int i = 0; i<a.length; i++){
+            if(a[i]!=a[j]){
+                j++;
+                a[j]=a[i];
+            }
+        }
+        return j+1;
 
+    }
         public static void main(String[] args) {
-            //int[] a={3,5,6,1,2};
+            int[] a={1,1,1,2,2,3,4,5};
             String s="adh";
-            System.out.println(longest(s));
+            System.out.println(removeDuplicates(a));
 
     }
 }

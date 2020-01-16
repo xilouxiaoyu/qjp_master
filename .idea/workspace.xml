@@ -1,205 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f90317a-8c19-4596-8c55-738f839fb603" name="Default" comment="readfile2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Proxy/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Consume.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Produce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/ProduceConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/upLoadFile.java" afterDir="false" />
+    <list default="true" id="eacbe3d7-0046-4b34-9372-821b99653567" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jai_imageio_jai_imageio_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_javase_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Array/ArrayToCIrcleQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Array/CircleSingleLinkListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Array/SingleLinkListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Array/SpareArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Utils/QrCodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_linux_11_0_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_11_0_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Proxy/JavaDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Proxy/JavaDeveloper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Proxy/testProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Proxy/testProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Consumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/Proxy/JavaDeveloper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/Proxy/JavaDeveloper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/Proxy/testProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/Proxy/testProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qjp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/domain/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/domain/user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Algorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Algorithm2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Algorithm2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Exercise2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/upLoadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/upLoadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/domain/user.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/domain/user.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/Algorithm$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/Algorithm$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/Algorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/Algorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/Algorithm2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/Algorithm2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/Exercise2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/Exercise2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/ProduceConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/ProduceConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/upLoadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/upLoadFile.class" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
-    <select />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/testNG/ExtentTestNGIReporterListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Algorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Algorithm2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="qjp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="20" />
+    <option name="y" value="43" />
+    <option name="width" value="1400" />
+    <option name="height" value="757" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="qjp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qjp_master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qjp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qjp_master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qjp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qjp_master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qjp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qjp_master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qjp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qjp_master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gjp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qjp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qjp_master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gjp" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qjp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qjp_master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="huawei" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579139248576" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <option value="Tag Library Descriptor" />
-        <option value="spring-beans.schema" />
-        <option value="Interface" />
-        <option value="Class" />
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="xmx" />
-      </map>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="userSettingsFile" value="$PROJECT_DIR$/../apache-maven-3.5.0/conf/settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="MavenRunner">
-    <option name="jreName" value="1.8" />
-  </component>
-  <component name="ProjectId" id="1VSR9zT127ak13b0wxKhhI2LQUV" />
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Correctness</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Performance</id>
-          </State>
-          <State>
-            <id>CorrectnessLintAndroid</id>
-          </State>
-          <State>
-            <id>GSPGrailsGroovy</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>GrailsGroovy</id>
-          </State>
-          <State>
-            <id>Groovy</id>
-          </State>
-          <State>
-            <id>Kotlin</id>
-          </State>
-          <State>
-            <id>LintAndroid</id>
-          </State>
-          <State>
-            <id>Maven</id>
-          </State>
-          <State>
-            <id>Plugin DevKit</id>
-          </State>
-          <State>
-            <id>XPath</id>
-          </State>
-        </expanded-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;jar:///Users/apple/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32.jar!/javax/servlet/annotation/WebListener.class&#10;weblis&#9;FILE&#9;jar:///Users/apple/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32.jar!/javax/servlet/annotation/WebListener.class&#10;WebListener&#9;FILE&#9;jar:///Users/apple/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32.jar!/javax/servlet/annotation/WebListener.class&#10;WebL&#9;PSI&#9;JAVA://javax.servlet.annotation.WebListener&#10;ServletWebServerFactory&#9;PSI&#9;JAVA://org.springframework.boot.web.servlet.server.ServletWebServerFactory" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.51816237" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="Push.Settings">
-    <excluded-roots>
-      <path value="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/controller" />
-    </excluded-roots>
-  </component>
-  <component name="RecentsManager">
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="cn.itcast.gjp.Proxy" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="cn.itcast.gjp" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.itcast.gjp.testNG" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/Mapper" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.ProduceConsumer">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
-    <configuration name="Algorithm2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.gjp.service.Algorithm2" />
-      <module name="qjp" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.gjp.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProduceConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.gjp.service.ProduceConsumer" />
-      <module name="qjp" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.gjp.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReflectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.gjp.service.ReflectTest" />
-      <module name="qjp" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.gjp.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -210,57 +200,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scheduleStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.gjp.service.scheduleStudy" />
-      <module name="qjp" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.gjp.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.gjp.Proxy.testProxy" />
-      <module name="qjp" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.gjp.Proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="tools" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
       <method v="2">
@@ -276,346 +225,89 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.scheduleStudy" />
-      <item itemvalue="Application.Algorithm2" />
-      <item itemvalue="Application.ReflectTest" />
-      <item itemvalue="Application.testProxy" />
-      <item itemvalue="Application.ProduceConsumer" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.ProduceConsumer" />
-        <item itemvalue="Application.testProxy" />
-        <item itemvalue="Application.Algorithm2" />
-        <item itemvalue="Application.ReflectTest" />
-        <item itemvalue="Application.scheduleStudy" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6f90317a-8c19-4596-8c55-738f839fb603" name="Default" comment="" />
-      <created>1548064376059</created>
+      <changelist id="eacbe3d7-0046-4b34-9372-821b99653567" name="Default" comment="" />
+      <created>1579055783172</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1548064376059</updated>
-      <workItem from="1548064380151" duration="2456000" />
-      <workItem from="1548067033668" duration="3581000" />
-      <workItem from="1548125763580" duration="7002000" />
-      <workItem from="1548148049517" duration="8000" />
-      <workItem from="1566900899269" duration="3466000" />
-      <workItem from="1567157617741" duration="4769000" />
-      <workItem from="1567169050165" duration="17334000" />
-      <workItem from="1567415290345" duration="8905000" />
-      <workItem from="1567484691754" duration="383000" />
-      <workItem from="1567485221063" duration="9348000" />
-      <workItem from="1567500874687" duration="1602000" />
-      <workItem from="1567930420280" duration="1141000" />
-      <workItem from="1568962945903" duration="8131000" />
-      <workItem from="1568983379900" duration="956000" />
-      <workItem from="1569034759318" duration="13152000" />
-      <workItem from="1569083291508" duration="11000" />
-      <workItem from="1569125521509" duration="1134000" />
-      <workItem from="1569295191513" duration="28538000" />
-      <workItem from="1569404974559" duration="13187000" />
-      <workItem from="1569724961876" duration="10784000" />
-      <workItem from="1570069914539" duration="50261000" />
-      <workItem from="1571038634649" duration="17161000" />
-      <workItem from="1571454360987" duration="187000" />
-      <workItem from="1571454571943" duration="2640000" />
-      <workItem from="1572493992325" duration="1229000" />
-      <workItem from="1572834265639" duration="7265000" />
-      <workItem from="1572860221007" duration="10478000" />
-      <workItem from="1573293315735" duration="2554000" />
-      <workItem from="1574130317536" duration="570000" />
-      <workItem from="1574839351488" duration="19684000" />
-      <workItem from="1575280031807" duration="11776000" />
-      <workItem from="1575518322644" duration="13855000" />
-      <workItem from="1575967231823" duration="2546000" />
-      <workItem from="1576062112693" duration="62000" />
-      <workItem from="1576640452154" duration="17383000" />
-      <workItem from="1576810172817" duration="10366000" />
-      <workItem from="1577010539888" duration="3768000" />
-      <workItem from="1577085945274" duration="1758000" />
-      <workItem from="1577244363046" duration="3253000" />
-      <workItem from="1577257585002" duration="145000" />
-      <workItem from="1577257745107" duration="32561000" />
-      <workItem from="1578050917004" duration="1669000" />
-      <workItem from="1578209766091" duration="19211000" />
-      <workItem from="1578316540180" duration="13997000" />
-      <workItem from="1578472096609" duration="267000" />
+      <updated>1579055783172</updated>
     </task>
-    <task id="LOCAL-00001" summary="xiugai">
-      <created>1567477606074</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1567477606074</updated>
-    </task>
-    <task id="LOCAL-00002" summary="sort3">
-      <created>1569305536157</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1569305536157</updated>
-    </task>
-    <task id="LOCAL-00003" summary="readfile2">
-      <created>1569310705538</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1569310705538</updated>
-    </task>
-    <task id="LOCAL-00004" summary="readfile2">
-      <created>1569321105369</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1569321105369</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 41m 51s.xml">
-      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 43m 12s.xml">
-      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 43m 54s.xml">
-      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 44m 54s.xml">
-      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 46m 11s.xml">
-      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 47m 40s.xml">
-      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 49m 09s.xml">
-      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 18h 54m 15s.xml">
-      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 19h 05m 17s.xml">
-      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="resTemplateStudy_queryBaidu - 2019.12.05 at 19h 06m 01s.xml">
-      <configuration name="resTemplateStudy.queryBaidu" configurationId="TestNG" />
-    </history-entry>
+  <component name="ToolWindowManager">
+    <frame x="20" y="43" width="1400" height="757" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32179675" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Maven" weight="0.3298969" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/controller" />
-    </ignored-roots>
-    <MESSAGE value="xiugai" />
-    <MESSAGE value="sort3" />
-    <MESSAGE value="readfile2" />
-    <option name="LAST_COMMIT_MESSAGE" value="readfile2" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="533" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1578471323326">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="533" y="117" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1578471323326" />
-    <state x="569" y="333" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1577244385783">
-      <screen x="0" y="23" width="1440" height="808" />
-    </state>
-    <state x="569" y="333" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.808@0.23.1440.808" timestamp="1577244385783" />
-    <state x="483" y="136" key="#xdebugger.evaluate" timestamp="1578380794792">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="483" y="136" key="#xdebugger.evaluate/0.23.1440.797@0.23.1440.797" timestamp="1578380794792" />
-    <state x="266" y="23" width="907" height="797" key="CommitChangelistDialog2" timestamp="1578305543719">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="266" y="23" width="907" height="797" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1578305543719" />
-    <state width="451" height="466" key="DebuggerActiveHint" timestamp="1577354018081">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="451" height="466" key="DebuggerActiveHint/0.23.1440.797@0.23.1440.797" timestamp="1577354018081" />
-    <state width="1358" height="380" key="GridCell.Tab.0.bottom" timestamp="1578472448633">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1358" height="380" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1578472448633" />
-    <state width="1358" height="380" key="GridCell.Tab.0.center" timestamp="1578472448632">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1358" height="380" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1578472448632" />
-    <state width="1358" height="380" key="GridCell.Tab.0.left" timestamp="1578472448631">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1358" height="380" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1578472448631" />
-    <state width="1358" height="380" key="GridCell.Tab.0.right" timestamp="1578472448633">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1358" height="380" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1578472448633" />
-    <state width="1358" height="189" key="GridCell.Tab.1.bottom" timestamp="1578384124068">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1358" height="189" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1578384124068" />
-    <state width="1358" height="189" key="GridCell.Tab.1.center" timestamp="1578384124067">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1358" height="189" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1578384124067" />
-    <state width="1358" height="189" key="GridCell.Tab.1.left" timestamp="1578384124067">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1358" height="189" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1578384124067" />
-    <state width="1358" height="189" key="GridCell.Tab.1.right" timestamp="1578384124068">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1358" height="189" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1578384124068" />
-    <state x="258" y="88" key="Maven.ArtifactSearchDialog" timestamp="1578217024117">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="258" y="88" key="Maven.ArtifactSearchDialog/0.23.1440.797@0.23.1440.797" timestamp="1578217024117" />
-    <state x="332" y="127" key="NewModule_or_Project.wizard" timestamp="1578275162455">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="332" y="127" key="NewModule_or_Project.wizard/0.23.1440.797@0.23.1440.797" timestamp="1578275162455" />
-    <state x="201" y="98" key="SettingsEditor" timestamp="1577257880029">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="201" y="98" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1577257880029" />
-    <state x="201" y="109" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1577244612955" />
-    <state x="397" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1578209788239">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="397" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1578209788239" />
-    <state x="378" y="99" width="683" height="655" key="find.popup" timestamp="1577254992898">
-      <screen x="0" y="23" width="1440" height="808" />
-    </state>
-    <state x="378" y="85" width="683" height="729" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1577244633797" />
-    <state x="378" y="99" width="683" height="655" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1577254992898" />
-    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1578393063255">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1578393063255" />
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/testNG/ExtentTestNGIReporterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Algorithm2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.51816237" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="Copyright.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.51816237" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.51816237" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.51816237" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>qjp</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.51816237" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: org.springframework:spring-jcl:5.0.8.RELEASE</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.51816237" />
               </list>
             </option>
           </splitter-proportions>

@@ -10,6 +10,10 @@ import java.util.concurrent.ConcurrentHashMap;
  * @date 2019/10/14 下午4:09
  */
 public class Exercise2 {
+    //数组
+    int[] a = {1,2,3};
+    int[] b = new int[2];   //需要指定数组的长度
+    int[] c = new int[]{1,2,3};
     public static List<String> listStudy(){
         System.out.println("===list===");
         List<String> strings = new ArrayList<>();
@@ -19,6 +23,9 @@ public class Exercise2 {
         strings.add("b");
         strings.add("c");
         strings.add("d");
+        ArrayList<String> strings1 = new ArrayList<>();
+        strings1.add("a");
+        strings.retainAll(strings1);//strings 与strings1的交集
         for (String s:strings){
             System.out.println(s);
         }
@@ -65,6 +72,7 @@ public class Exercise2 {
     public <E> E getAge(E e){
         return null;
     }
+
     public static void main(String[] args) {
         Exercise2 exercise2 = new Exercise2();
         user stringuser = new user();
@@ -73,8 +81,8 @@ public class Exercise2 {
 
 
         listStudy();
-        setStudy();
-        mapStudy();
+        //setStudy();
+        //mapStudy();
     }
 }
 
