@@ -9,8 +9,8 @@ import java.util.ArrayList;
 
 @Data
 @Builder
-@AllArgsConstructor
-@NoArgsConstructor
+//@AllArgsConstructor
+//@NoArgsConstructor
 
 public class Produce implements Runnable{
     public Object object = new Object();

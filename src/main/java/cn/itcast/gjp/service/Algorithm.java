@@ -142,6 +142,7 @@ public class Algorithm {
         }
         return result.reverse().toString();
     }
+    //两数相加
     public static int[] getTargetNums(int[] nums, int target) {
         int[] tartgetNum = new int[2];
         for(int i=0; i<nums.length -1; i++) {
@@ -297,10 +298,9 @@ public class Algorithm {
         int index=0;
         int minLen=Math.min(version1.length, version2.length);
         long diff=0;
-        while(index<minLen&&(diff=Long.parseLong(version1[index])-Long.parseLong(version2[index]))==0)
+        while(index < minLen && (diff=Long.parseLong(version1[index])-Long.parseLong(version2[index]))==0)
             index++;
-        if(diff==0)
-        {
+        if(diff==0) {
             for(int i=index;i<version1.length;i++)
                 if(Long.parseLong(version1[i])>0)
                     return 1;
@@ -309,7 +309,7 @@ public class Algorithm {
                     return -1;
             return 0;
         }else {
-            return diff>0?1:-1;
+            return diff > 0 ? 1 : -1;
         }
     }
 
@@ -322,30 +322,8 @@ public class Algorithm {
         if(n==2) return 2;
         return ways(n-1)+ways(n-2);
     }
-    public static int compareVersion2(String v1,String v2){
-        if(v1.equals(v2)){
-            return 0;
-        }
 
-        String[] version1 = v1.split("\\.");
-        String[] version2 = v2.split("\\.");
-
-        long diff=0;
-        int index=0;
-        int minLen=Math.min(version1.length,version2.length);
-        while(index<minLen&&(diff=Long.parseLong(version1[index])-Long.parseLong(version2[index]))==0)
-            index++;
-        if(diff==0){
-            if((version1.length-version2.length)>0){
-                return 1;
-            }if((version1.length-version2.length)<0){
-                return -1;
-            }
-        }
-
-        return diff>0?1:-1;
-    }
-
+    //
     public static void merge(int[] m,int[] n) {
         int i = 0, j = 0, count = 0;
         int msize = m.length;
@@ -368,8 +346,8 @@ public class Algorithm {
                 k[count++] = m[i++];
             }
         }
-        for(int w=0;w<count;w++){
-            System.out.println(k[w]);
+        for(int w=0 ; w<count; w++){
+            System.out.println( k[w] );
         }
     }
 
@@ -530,12 +508,12 @@ public class Algorithm {
     public static int search(int key ,int[] arr){
         int start = 0;
         int end = arr.length-1;
-        while (start<=end){
-            int mid =(start+end)/2;
-            if(key<arr[mid]){
-                end=mid-1;
-            } else if(key>arr[mid]) {
-                start=mid+1;
+        while (start <= end){
+            int mid = (start+end)/2;
+            if(key < arr[mid]){
+                end = mid-1;
+            } else if(key > arr[mid]) {
+                start = mid+1;
             }else {
                 return mid;
             }
@@ -545,9 +523,9 @@ public class Algorithm {
     //判断是否是素数
     public static boolean isPrime(int a){
         boolean isPrime = true;
-        for(int i = 2;i<a;i++){
-            if(a%i==0){
-              isPrime =false;
+        for(int i = 2; i < a; i++){
+            if(a%i == 0){
+              isPrime = false;
               break;
             }
         }
@@ -555,36 +533,35 @@ public class Algorithm {
     }
 
     //求字符串中重复字符串最大的长度
-    public static void maxRepeating(String str)
-    {
+    public static void maxRepeating(String str){
         char[] array = str.toCharArray();
         int count = 1;
         int max = 0;
         char maxChar = 0;
-        int maxIndex=0;
+        int maxIndex = 0;
         for(int i=1; i<array.length; i++){ // Start from 1 since we want to compare it with the char in index 0
-            if(array[i]==array[i-1]){
+            if(array[i] == array[i-1]){
                 count++;
             } else {
-                if(count>max){  // Record current run length, is it the maximum?
-                    max=count;
-                    maxChar=array[i-1];
-                    maxIndex=i-1;
+                if( count > max ){  // Record current run length, is it the maximum?
+                    max = count;
+                    maxChar = array[i-1];
+                    maxIndex = i-1;
                 }
                 count = 1; // Reset the count
             }
         }
-        if(count>max){
-            max=count; // This is to account for the last run
-            maxChar=array[array.length-1];
-            maxIndex=array.length-1;
+        if( count > max ){
+            max = count; // This is to account for the last run
+            maxChar = array[array.length-1];
+            maxIndex = array.length-1;
         }
         System.out.println("Longest run: "+max+", for the character "+maxChar+"and the max char index is:"+maxIndex);
         System.out.println(str.substring(maxIndex-(max-1),maxIndex+1));
 
     }
 
-    //给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度
+    //给定一个字符串，请你找出其中不含有重复字符的最长子串的长度
     public static int lengthOfLongestSubstring(String s) {
         if (s.isEmpty()){//判断字符串是否为空
             return 0;
@@ -621,8 +598,8 @@ public class Algorithm {
         String s1=""+str.charAt(0);
         //System.out.println(Integer.parseInt("123456"));
         for(int i=1;i<str.length();i++){
-            if(s1.indexOf(""+ str.charAt(i))==-1){
-                s1=s1+""+str.charAt(i);
+            if(s1.indexOf("" + str.charAt(i))==-1){
+                s1=s1 + ""+ str.charAt(i);
             }else {
                s1 = s1.substring(s1.indexOf(""+ str.charAt(i))+1) + str.charAt(i);
             }

@@ -15,14 +15,9 @@ public class  Consume implements Runnable{
     public Object object = new Object();
     public ArrayList<Integer> produceList =new ArrayList<>();
 
-    public Consume(ArrayList<Integer> produceList) {
-        this.produceList = produceList;
-    }
 
-    public Consume(Object object, ArrayList<Integer> produceList) {
-        this.object = object;
-        this.produceList = produceList;
-    }
+
+
 
     public void Consum() throws InterruptedException {
         synchronized (object){

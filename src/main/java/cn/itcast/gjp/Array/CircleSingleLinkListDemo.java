@@ -22,7 +22,7 @@ class CircleSingleLinkList{
                 }
                 else{
                      cruboy.setNext(boy);
-                    boy.
+                    //boy.
                 }
             }
 
