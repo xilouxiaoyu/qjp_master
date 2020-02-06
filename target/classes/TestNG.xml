@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="ApiAutoTest">
+<suite name="ApiAutoTest" parallel="methods" thread-count="10">
     <test verbose="2" name="all cases">
     <classes>            <!-- 接口自动化测试入口-->
-        <class name="cn.itcast.gjp.test">
+        <class name="cn.itcast.gjp.testNG.iTestCopy">
             <!--<methods>
                 <include name="test1"/>
             </methods>-->
         </class>
+        <class name="cn.itcast.gjp.testNG.iTest">
+        </class>
     </classes>
     </test>
     <listeners>
-        <listener class-name="cn.itcast.gjp.testNG.ExtentTestNGIReporterListener"/>
-        <listener class-name="cn.itcast.gjp.testNG.ExtentTestNGITestListener"/>
+        <!--<listener class-name="cn.itcast.gjp.testNG.ExtentTestNGIReporterListener"/>-->
+        <!--<listener class-name="cn.itcast.gjp.testNG.ExtentTestNGITestListener"/>-->
     </listeners>
 </suite>

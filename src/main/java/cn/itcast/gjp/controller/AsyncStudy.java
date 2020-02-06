@@ -1,13 +1,11 @@
 package cn.itcast.gjp.controller;
 
-import cn.itcast.gjp.service.AsyncStudyService;
+import cn.itcast.gjp.myStudy.AsyncStudyService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.scheduling.annotation.AsyncResult;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.io.File;
 import java.util.concurrent.Future;
 
 /**

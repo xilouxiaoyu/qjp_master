@@ -1,0 +1,25 @@
+package cn.itcast.gjp.jobs;
+
+
+import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.stereotype.Component;
+
+@Component
+public class ScheduledService {
+   /* @Scheduled(cron = "0/5 * * * * *")
+    public void scheduled() {
+        System.out.println("=====>>>>>使用cron");
+    }
+
+    @Scheduled(fixedRate = 5000)
+    public void scheduled1() {
+        System.out.println("=====>>>>>fixedRate");
+    }
+
+    @Scheduled(fixedDelay = 5000)
+    public void scheduled2() {
+        System.out.println("=====>>>>>fixedDelay");
+    }*/
+}
+
+
