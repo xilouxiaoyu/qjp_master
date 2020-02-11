@@ -13,14 +13,21 @@ import java.util.Objects;
  * @date 2019/8/27 下午6:33
  */
 @Data
-@AllArgsConstructor
+
 @NoArgsConstructor
 @Builder(toBuilder=true)
 public class user implements Serializable {
-    private int id = 100;
+    private int id ;
     private String nickName;
     public String mobile;
     private String realName;
+
+    public user(int i, String nickName, String mobile, String realName) {
+        this.id= i;
+        this.nickName = nickName;
+        this.mobile =mobile;
+        this.realName = realName;
+    }
 
     @Override
     public boolean equals(Object o) {

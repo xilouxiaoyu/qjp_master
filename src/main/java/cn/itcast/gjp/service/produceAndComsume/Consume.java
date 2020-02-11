@@ -9,7 +9,6 @@ import java.util.ArrayList;
 
 @Data
 @Builder
-@AllArgsConstructor
 @NoArgsConstructor
 public class  Consume implements Runnable{
     public Object object = new Object();
