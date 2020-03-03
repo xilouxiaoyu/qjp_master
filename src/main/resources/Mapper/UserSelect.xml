@@ -8,13 +8,22 @@
         <result column="real_name" property="realName" />
     </resultMap>
 
-    <select id="selectById" resultMap="baseMap">
+    <!--<select id="selectById" resultMap="baseMap">
         SELECT
           id,nickName,mobile,real_name
         FROM
           user
         WHERE
           id = #{id}
+    </select>-->
+
+    <select id="selectById" resultMap="baseMap">
+        SELECT
+        id,name,age
+        FROM
+        user
+        WHERE
+        id = #{id}
     </select>
     <select id="selectByNickName" resultMap="baseMap">
         SELECT

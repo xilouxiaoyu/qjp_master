@@ -18,11 +18,13 @@ import java.util.List;
 public class Select {
     @Autowired
     private UserService userService;
+
     @RequestMapping("id")
     @ResponseBody
     public user selectById(int id){
         return userService.selectOne(id);
     }
+
     @RequestMapping("nickName")
     @ResponseBody
     public List<user> selectByNickName(String nickName){

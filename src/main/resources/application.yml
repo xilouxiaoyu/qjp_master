@@ -3,12 +3,34 @@ spring:
     teststage:
       type: com.alibaba.druid.pool.DruidDataSource
       driver-class-name: com.mysql.jdbc.Driver
-      initialize: true #指定初始化数据源，是否用data.sql来初始化，默认: true
+      #initialize: true #指定初始化数据源，是否用data.sql来初始化，默认: true
       name: qianjin
-      url: jdbc:mysql://10.10.163.2:3306/test_qianjin_user_center?useUnicode=true&characterEncoding=utf8&useSSL=false
-      username: qianjin20160304
-      password: qianjin20160304
-      validationQuery: select 1
+      #url: jdbc:mysql://127.0.0.1:3306/test_qianjin_user_center?useUnicode=true&characterEncoding=utf8&useSSL=false
+      url: jdbc:mysql://127.0.0.1:3306/syc?useUnicode=true&characterEncoding=utf8&useSSL=false
+      username: root
+      password: 123456
+      #validationQuery: select 1
+
+      initalSize: 5
+      maxActive: 20
+      minIdle: 5
+      #配置获取连接等待超时的时间
+      maxWait: 60000
+      # 配置一个连接在池中最小生存的时间，单位是毫秒
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: SELECT 1 FROM DUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      filters : stat
+
+  mail:
+    host: smtp.qq.com
+    username: 821014243@qq.com
+    password: yyejogviiuaabdig
+
+
+
 
 #  profiles:
 #    active: @profileActive@
@@ -26,4 +48,11 @@ spring:
     expose-spring-macro-helpers: false
     suffix: .ftl
     template-loader-path: classpath:/templates/report
+
+server:
+  port:8081
+
+
+
+
 

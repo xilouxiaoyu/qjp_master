@@ -19,6 +19,21 @@ public class ScheduledService {
     public void scheduled2() {
         System.out.println("=====>>>>>fixedDelay");
     }*/
+
+    public static void main(String[] args) {
+        String s = new String("a");
+        String s1 = new String("a");
+        lock(s);
+        lock(s);
+
+    }
+
+    static void lock(String string) {
+        System.out.println(string);
+        synchronized (string) {
+
+        }
+    }
 }
 
 

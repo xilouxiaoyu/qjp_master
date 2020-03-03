@@ -1,7 +1,13 @@
 package cn.itcast.gjp.service;
 
-import java.util.HashSet;
-import java.util.Stack;
+import cn.itcast.gjp.domain.user;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
+import org.springframework.mail.javamail.MimeMessageHelper;
+
+import javax.mail.internet.MimeMessage;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Method;
+import java.util.*;
 
 /**
  * @author apple
@@ -609,7 +615,138 @@ public class Algorithm {
         return max;
     }
 
+    public static int maxSubArray(int[] nums){
+        int currSum = nums[0];
+        int maxSum = nums[0];
+        for(int i = 1; i < nums.length; i++){
+            currSum = Math.max(currSum+nums[i], nums[i]);
+            maxSum = Math.max(currSum,maxSum);
+        }
+        return maxSum;
+    }
+
+    public static int[] plusOne(int[] digits) {
+        for (int i = digits.length - 1; i >= 0; i--) {
+            digits[i]++;
+            digits[i] = digits[i] % 10;
+            if (digits[i] != 0) return digits;
+        }
+        digits = new int[digits.length + 1];
+        digits[0] = 1;
+        return digits;
+    }
+
+    public static int mySqrt(int x) {
+        if (x < 2) return x;
+
+        int left = (int)Math.pow(Math.E, 0.5 * Math.log(x));
+        int right = left + 1;
+        return (long)right * right > x ? left : right;
+    }
+
+    public static int mySqrt2(int x){
+        if(x < 2){
+            return x;
+        }
+        double x0 = x;
+        double x1 = (x0 + x / x0) / 2;
+        while (Math.abs(x0 - x1) > 1){
+            x0 = x1;
+            x1 = (x0 + x / x0) /2;
+        }
+        return (int) x1;
+    }
+
+
+    public static int climbStairs(int n) {
+        int memo[] = new int[n + 1];
+        return climb_Stairs(0, n, memo);
+    }
+    public static int climb_Stairs(int i, int n, int memo[]) {
+        if (i > n) {
+            return 0;
+        }
+        if (i == n) {
+            return 1;
+        }
+        if (memo[i] > 0) {
+            return memo[i];
+        }
+        memo[i] = climb_Stairs(i + 1, n, memo) + climb_Stairs(i + 2, n, memo);
+        return memo[i];
+    }
+
+    public static void rotate(int[] nums, int k) {
+        int temp, previous;
+        for (int i = 0; i < k; i++) {
+            previous = nums[nums.length - 1];
+            for (int j = 0; j < nums.length; j++) {
+                temp = nums[j];
+                nums[j] = previous;
+                previous = temp;
+            }
+        }
+    }
+
+
+        public static boolean wordPattern(String pattern, String str) {
+            String[] words = str.split(" ");
+            if (words.length != pattern.length()) return false;
+            Map<Object, Integer> mem = new HashMap<>();
+            for (int i = 0; i < words.length; i++)
+                if (!Objects.equals(mem.put(words[i], i),
+                        mem.put(pattern.charAt(i), i))) return false;
+            return true;
+        }
+
+        public static ArrayList<String> getMaxString(String s1, String s2){
+        String maxString = (s1.length() < s2.length()) ? s2 : s1;
+        String minString = (s1.length() < s2.length()) ? s1 : s2;
+            ArrayList<String> strings = new ArrayList<>();
+
+            for(int i = 0; i < minString.length(); i++){
+                for(int x = 0, y = minString.length()-i; y <minString.length();x++, y++ ){
+                maxString.contains(minString.substring(x,y));
+                strings.add(minString.substring(x,y));
+                }
+                if (strings.size() != 0) {
+                    return strings;
+                }
+            }
+
+        return null;
+    }
+
+
     public static void main(String[] args) throws Exception {
+
+        String s1 = "abdhjkhhdd";
+        String s2 = "khhh";
+        System.out.println(getMaxString(s1, s2));
+
+        String a = "1233";
+        int i = Integer.parseInt(a);
+        String s = String.valueOf(i);
+        System.out.println(s);
+
+        String b = "aaaa";
+        byte[] bytes = b.getBytes();
+        for(byte by:bytes){
+            System.out.println(by);
+        }
+
+        String s3 = new String(bytes);
+        System.out.println(s3);
+
+        String c = "郝晓庆";
+        char[] chars = c.toCharArray();
+        for(char ch:chars){
+            System.out.print(ch);
+        }
+
+        String s4 = new String(chars);
+        System.out.println(s4);
+
         //单链表
         /*Node node1 = new Node<Integer>(null, 1);
         Node node2 = new Node<Integer>(null, 2);
@@ -620,8 +757,40 @@ public class Algorithm {
         node3.next = node4;
         node1.foreach();
         reverse(node1).foreach();*/
-        String str = "aaaaaaabaa";
-        System.out.println(maxlength(str));
+        //String str = "aaaaaaabaa";
+        //System.out.println(maxlength(str));
+
+        /*int[] nums = {1,4,5,2,3};
+        List<int[]> ints = Arrays.asList(nums);
+        ints.toArray()*/;
+        /*int[] ints = plusOne(nums);
+        for (int i = 0; i < ints.length; i++) {
+            System.out.println(ints[i]);
+        }*/
+
+        //System.out.println(climbStairs(3));
+        //rotate(nums,3);
+        /*String a = "aabb";
+        String b = "aabb aabb hjk hjk";
+        boolean b1 = wordPattern(a, b);
+        System.out.println(b1);*/
+
+        /*user user = new user();
+        Class<? extends cn.itcast.gjp.domain.user> userClass = user.getClass();
+*/
+        //Class<?> userClass = Class.forName("cn.itcast.gjp.domain.user");
+        /*Method[] methods = userClass.getMethods();
+        for(int i = 0; i < methods.length; i++){
+            System.out.print(methods[i]);
+            System.out.println();
+
+            Annotation[] annotations = methods[i].getAnnotations();
+            for (Annotation an:annotations) {
+                System.out.print(an.toString());
+
+            }
+        }*/
+
     }
 }
 

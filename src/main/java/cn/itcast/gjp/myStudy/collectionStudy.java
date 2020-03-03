@@ -73,13 +73,19 @@ public class collectionStudy {
     }
 
     public static void main(String[] args) {
-        collectionStudy exercise2 = new collectionStudy();
+        /*collectionStudy exercise2 = new collectionStudy();
         user stringuser = new user();
         exercise2.getAge("jkahkah7972");
-        exercise2.getAge(stringuser);
+        exercise2.getAge(stringuser);*/
+
+        StringBuffer stringBuffer = new StringBuffer();
+        stringBuffer.append("abbb",2,3);
+        stringBuffer.replace(1,2,"cd");
+        System.out.println(stringBuffer.length());
+        System.out.println(stringBuffer);
 
 
-        listStudy();
+        //listStudy();
         //setStudy();
         //mapStudy();
     }

@@ -21,4 +21,5 @@ public interface userDao {
      */
      user selectById(@Param("id") int ids);
      List<user> selectByNickName(@Param("nickName") String nickName);
+
 }

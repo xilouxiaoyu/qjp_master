@@ -3,7 +3,6 @@ package cn.itcast.gjp.myStudy;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.springframework.http.*;
-import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 import org.testng.annotations.Test;

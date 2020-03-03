@@ -6,6 +6,7 @@ public class countDownStudy {
 
 
     public static void main(String[] args) throws InterruptedException {
+
         CountDownLatch c = new CountDownLatch(10);
 
 
