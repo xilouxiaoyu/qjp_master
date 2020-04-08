@@ -11,7 +11,7 @@
 
     <groupId>groupId</groupId>
     <artifactId>qjp</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.2-SNAPSHOT</version>
     <properties>
         <thymeleaf.version>3.0.2.RELEASE</thymeleaf.version>
         <thymeleaf-layout->2.2.4</thymeleaf-layout->
@@ -28,6 +28,17 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>3.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf -->
         <!--<dependency>-->
@@ -73,17 +84,19 @@
             <version>2.1.0</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail -->
         <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
+            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
+            <version>2.2.5.RELEASE</version>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-redis</artifactId>
             <version>1.4.7.RELEASE</version>
             <scope>test</scope>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.apache.tomcat</groupId>
@@ -211,7 +224,11 @@
             <artifactId >javax.mail</artifactId >
             <version >1.6.0</version >
         </dependency >
-
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>2.7.1</version>
+        </dependency>
 
 
     </dependencies>
@@ -237,8 +254,37 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-        </plugins>
 
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.1</version>
+                <configuration>
+                    <includes>
+                        <!--&lt;!&ndash; 限定只统计部分类的覆盖率 &ndash;&gt;
+                        <include>com/jacoco/tutorial/Calculator*</include>-->
+                    </includes>
+                    <destFile>${project.build.directory}/coverage-reports/jacoco-unit.exec</destFile>
+                    <dataFile>${project.build.directory}/coverage-reports/jacoco-unit.exec</dataFile>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>jacoco-initialize</id>
+                        <!--<goals>
+                            <goal>prepare-agent</goal>
+                        </goals>-->
+                    </execution>
+                    <execution>
+                        <id>jacoco-site</id>
+                        <phase>test</phase>
+                        <!--<goals>
+                            <goal>report</goal>
+                        </goals>-->
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
 
     </build>
 

@@ -3,6 +3,7 @@ package cn.itcast.gjp.service;
 import cn.itcast.gjp.domain.user;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
+import org.testng.annotations.Test;
 
 import javax.mail.internet.MimeMessage;
 import java.lang.annotation.Annotation;
@@ -165,24 +166,24 @@ public class Algorithm {
     }
 
     //冒泡排序
+    @Test
     public void BulleSort() {
-        System.out.println("2、交换排序->冒泡排序");
 
-    int[] a = {12,20,5,16,15,1,30,45,23,9};
+        int[] a = {2,1,3,5};
 
-    for(int i = 0; i < a.length -1; i++) {
-        // 采用第一层循环来控制循环的次 数，一共循环a.length-1次
-        // 这样会循环到倒数第二个元素
-         for (int j = i + 1; j < a.length; j++) {
-             // 第二层循环来交换位置，j在 i的基础上+1是因为当前的值要和他身后的元素比较大小，直至最后一个。
-             //（ // 因为第二次循环直至最后一 个所以第一层循环才会a.length-1）
-              if (a[i] > a[j]) {
-                  int temp = a[i];
-                  a[i] = a[j];
-                  a[j] = temp;
-              }
-         }
-    }
+        for (int i = 0; i < a.length - 1; i++) {
+
+            for (int j = 0 ; j < a.length - i- 1; j++) {
+                if (a[j] > a[j+1]) {
+                    int temp = a[j+1];
+                    a[j+1] = a[j];
+                    a[j] = temp;
+                }
+            }
+        }
+        for(int i = 0; i < a.length; i++){
+            System.out.println(a[i]);
+        }
     }
 
     //快速排序
@@ -290,6 +291,7 @@ public class Algorithm {
                 }
             }
         }
+
         return input;
     }
     //比较客户端版本大小
@@ -492,7 +494,7 @@ public class Algorithm {
         Node cross= slow;
         if (head != slow){
             head = head.next;
-            p= p.next;
+            p = p.next;
         }
         return  p;
     }
@@ -545,7 +547,7 @@ public class Algorithm {
         int max = 0;
         char maxChar = 0;
         int maxIndex = 0;
-        for(int i=1; i<array.length; i++){ // Start from 1 since we want to compare it with the char in index 0
+        for(int i=1; i < array.length; i++){ // Start from 1 since we want to compare it with the char in index 0
             if(array[i] == array[i-1]){
                 count++;
             } else {
@@ -585,7 +587,8 @@ public class Algorithm {
                     int n1=s1.length()-s1.indexOf(""+s.charAt(i))-1;
                     //找到flag字符中含有下一个字符的位置,并截取其后字符的长度
                     sum=n1+1;
-                    s1=s1.substring(s1.indexOf(""+s.charAt(i))+1,s1.length())+s.charAt(i);//截取原flag其后字符并加上末端的重复字符形成新的flag字符
+                    s1=s1.substring(s1.indexOf(""+s.charAt(i))+1,s1.length())+s.charAt(i);
+                    //截取原flag其后字符并加上末端的重复字符形成新的flag字符
                 }else{
                     sum=sum+1;
                     //flag字符中没有有下一个字符，sum+1并在flag字符中加上下一个字符
@@ -603,8 +606,8 @@ public class Algorithm {
         int max=1;
         String s1=""+str.charAt(0);
         //System.out.println(Integer.parseInt("123456"));
-        for(int i=1;i<str.length();i++){
-            if(s1.indexOf("" + str.charAt(i))==-1){
+        for(int i=1;i < str.length();i++){
+            if(s1.indexOf("" + str.charAt(i)) == -1){
                 s1=s1 + ""+ str.charAt(i);
             }else {
                s1 = s1.substring(s1.indexOf(""+ str.charAt(i))+1) + str.charAt(i);
@@ -688,39 +691,107 @@ public class Algorithm {
         }
     }
 
+    //字符串与pattern匹配
+    public static boolean wordPattern(String pattern, String str) {
+        String[] words = str.split(" ");
+        if (words.length != pattern.length()) return false;
+        Map<Object, Integer> mem = new HashMap<>();
+        for (int i = 0; i < words.length; i++)
+            if (!Objects.equals(mem.put(words[i], i),
+                    mem.put(pattern.charAt(i), i))) return false;
+        return true;
+    }
 
-        public static boolean wordPattern(String pattern, String str) {
-            String[] words = str.split(" ");
-            if (words.length != pattern.length()) return false;
-            Map<Object, Integer> mem = new HashMap<>();
-            for (int i = 0; i < words.length; i++)
-                if (!Objects.equals(mem.put(words[i], i),
-                        mem.put(pattern.charAt(i), i))) return false;
-            return true;
-        }
-
-        public static ArrayList<String> getMaxString(String s1, String s2){
+    public static ArrayList<String> getMaxString(String s1, String s2) {
         String maxString = (s1.length() < s2.length()) ? s2 : s1;
         String minString = (s1.length() < s2.length()) ? s1 : s2;
-            ArrayList<String> strings = new ArrayList<>();
+        ArrayList<String> strings = new ArrayList<>();
 
-            for(int i = 0; i < minString.length(); i++){
-                for(int x = 0, y = minString.length()-i; y <minString.length();x++, y++ ){
-                maxString.contains(minString.substring(x,y));
-                strings.add(minString.substring(x,y));
-                }
-                if (strings.size() != 0) {
-                    return strings;
-                }
+        for (int i = 0; i < minString.length(); i++) {
+            for (int x = 0, y = minString.length() - i; y < minString.length(); x++, y++) {
+                maxString.contains(minString.substring(x, y));
+                strings.add(minString.substring(x, y));
             }
-
+            if (strings.size() != 0) {
+                return strings;
+            }
+        }
         return null;
     }
+
+    public static void twoArr() {
+        int[] arr1 = {28, 87, 98, 87};
+        int[] arr2 = {23, 76, 89, 90};
+
+        //因为数组长度不可变，所以新的数组需要重新定义，长度为两个旧数组长度和
+        int[] arr = new int[arr1.length + arr2.length];
+
+        //遍历新数组
+        for (int i = 0; i < arr.length; i++) {
+            if (i < arr1.length) {
+                arr[i] = arr1[i];  //把数组arr1的元素放入新数组
+            } else {
+                arr[i] = arr2[i - arr1.length]; //把数组arr2的元素放入新数组
+            }
+        }
+        System.out.println("-------排序前-----------");
+        for (int a : arr) {
+            System.out.print(a + " ");
+        }
+        System.out.println();
+
+        System.out.println("--------排序后-----------");
+        Arrays.sort(arr);
+        for (int a : arr) {
+            System.out.print(a + " ");
+        }
+    }
+
+    public static int numDecodings(String s) {
+        int len = s.length();
+        int[] dp = new int[len + 1];
+        dp[len] = 1; //将递归法的结束条件初始化为 1
+        //最后一个数字不等于 0 就初始化为 1
+        if (s.charAt(len - 1) != '0') {
+            dp[len - 1] = 1;
+        }
+        for (int i = len - 2; i >= 0; i--) {
+            //当前数字时 0 ，直接跳过，0 不代表任何字母
+            if (s.charAt(i) == '0') {
+                continue;
+            }
+            int ans1 = dp[i + 1];
+            //判断两个字母组成的数字是否小于等于 26
+            int ans2 = 0;
+            int ten = (s.charAt(i) - '0') * 10;
+            int one = s.charAt(i + 1) - '0';
+            if (ten + one <= 26) {
+                ans2 = dp[i + 2];
+            }
+            dp[i] = ans1 + ans2;
+
+        }
+        return dp[0];
+    }
+
+
 
 
     public static void main(String[] args) throws Exception {
 
-        String s1 = "abdhjkhhdd";
+        String s = "226";
+        System.out.println(numDecodings(s));
+
+        //System.out.println(maxlength("abcdeabbb"));
+        /*String[] a = {"bca","abc","bca"};
+        arraySort(a);
+        for(int i = 0; i < a.length; i++){
+            System.out.println(a[i]);
+        }*/
+
+        //twoArr();
+
+        /*String s1 = "abdhjkhhdd";
         String s2 = "khhh";
         System.out.println(getMaxString(s1, s2));
 
@@ -745,7 +816,7 @@ public class Algorithm {
         }
 
         String s4 = new String(chars);
-        System.out.println(s4);
+        System.out.println(s4);*/
 
         //单链表
         /*Node node1 = new Node<Integer>(null, 1);
@@ -760,10 +831,10 @@ public class Algorithm {
         //String str = "aaaaaaabaa";
         //System.out.println(maxlength(str));
 
-        /*int[] nums = {1,4,5,2,3};
-        List<int[]> ints = Arrays.asList(nums);
-        ints.toArray()*/;
-        /*int[] ints = plusOne(nums);
+       /* int[] nums = {1,4,5,2,3};
+        *//*List<int[]> ints = Arrays.asList(nums);
+        ints.toArray();*//*
+        int[] ints = plusOne(nums);
         for (int i = 0; i < ints.length; i++) {
             System.out.println(ints[i]);
         }*/

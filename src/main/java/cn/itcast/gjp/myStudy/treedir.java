@@ -36,6 +36,7 @@ public class treedir {
                  * 如果不是文件夹,则直接打印
                  */
                 System.out.println(temp + f.getName());
+                System.out.println(f.length());
             }
         }
     }
