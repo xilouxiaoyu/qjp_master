@@ -2,62 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eacbe3d7-0046-4b34-9372-821b99653567" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_27_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_3_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_3_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_3_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_dubbo_dubbo_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_4_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_4_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/stringAlg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/myStudy/TicketRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/myStudy/TicketThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/myStudy/fastJsonCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/testNG/ApiTestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/testNG/MethodInterceptors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/testNG/ParamTestWithDataProvider1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/testNG/Transform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/testNG/variableUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_spring_boot_starter_mail_unknown.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_8_RELEASE.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/daba.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qjp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/qjp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/controller/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/controller/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/myStudy/redisTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/myStudy/redisTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/myStudy/treedir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/myStudy/treedir.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Algorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/testNG/iTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/testNG/iTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/controller/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/controller/Hello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/myStudy/redisTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/myStudy/treedir.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/myStudy/treedir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/Algorithm$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/Algorithm$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/Algorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/service/Algorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/testNG/iTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/gjp/testNG/iTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/qjp-1.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,11 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Algorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="752" column="38" lean-forward="true" selection-start-line="752" selection-start-column="38" selection-end-line="752" selection-end-column="38" />
+            <state relative-caret-position="650">
+              <caret line="879" selection-start-line="879" selection-end-line="879" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/daba.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -211,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/controller/Hello.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/testNG/iTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Algorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/daba.java" />
       </list>
     </option>
   </component>
@@ -290,6 +248,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gjp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="qjp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qjp_master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gjp" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -307,7 +274,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586343199703" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586597217897" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -331,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Algorithm">
+  <component name="RunManager" selected="Application.daba">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -368,6 +335,20 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="daba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.gjp.service.daba" />
+      <module name="qjp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.gjp.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -412,17 +393,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/ximuxiao/IdeaProjects/qjp_master/src/main/resources/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qjp" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/TestNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -443,11 +413,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.daba" />
         <item itemvalue="Application.Algorithm" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.search" />
         <item itemvalue="TestNG.ParamTestWithDataProvider1.testPrimeNumberChecker" />
-        <item itemvalue="TestNG./Users/ximuxiao/IdeaProjects/qjp_master/src/main/resources/TestNG.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -511,11 +481,19 @@
       <configuration name="ParamTestWithDataProvider1.testPrimeNumberChecker" configurationId="TestNG" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="757" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20913108" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20913108" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -523,16 +501,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="DB Browser" order="7" weight="0.3298969" />
-      <window_info id="Project Explorer" order="8" />
+      <window_info active="true" id="Project Explorer" order="8" visible="true" weight="0.3298969" />
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32932332" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992636" weight="0.36541355" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6360902" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992636" weight="0.3924812" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35789475" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49852726" weight="0.32932332" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32932332" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49852726" visible="true" weight="0.32932332" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5014728" side_tool="true" weight="0.32932332" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32932332" />
@@ -551,14 +529,10 @@
     </layout>
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="332" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583922285429">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="558" y="332" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.797@0.23.1440.797" timestamp="1583922285429" />
-    <state x="386" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1583922484163">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="386" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1583922484163" />
+    <state x="558" y="332" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" />
+    <state x="558" y="332" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.797@0.23.1440.797" />
+    <state x="386" y="268" key="com.intellij.ide.util.TipDialog" />
+    <state x="386" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -986,8 +960,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/Algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="752" column="38" lean-forward="true" selection-start-line="752" selection-start-column="38" selection-end-line="752" selection-end-column="38" />
+        <state relative-caret-position="650">
+          <caret line="879" selection-start-line="879" selection-end-line="879" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/gjp/service/daba.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
